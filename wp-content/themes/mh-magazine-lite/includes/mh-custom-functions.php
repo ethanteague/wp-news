@@ -1,16 +1,5 @@
 <?php
 
-/***** Add CSS classes to HTML tag *****/
-
-if (!function_exists('mh_magazine_lite_html_class')) {
-	function mh_magazine_lite_html_class() {
-		$mh_magazine_lite_options = mh_magazine_lite_theme_options();
-		isset($mh_magazine_lite_options['full_bg']) && $mh_magazine_lite_options['full_bg'] == 1 ? $fullbg = ' fullbg' : $fullbg = '';
-		echo $fullbg;
-	}
-}
-add_action('mh_html_class', 'mh_magazine_lite_html_class');
-
 /***** Add CSS classes to body tag *****/
 
 if (!function_exists('mh_magazine_lite_body_class')) {

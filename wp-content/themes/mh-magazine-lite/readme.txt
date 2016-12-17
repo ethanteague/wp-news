@@ -2,8 +2,8 @@
 Theme URI: http://www.mhthemes.com/themes/mh/magazine-lite/
 Tags: Blog, Magazine
 Requires at least: 4.5.0
-Tested up to: 4.6.1
-Stable tag: 2.5.5
+Tested up to: 4.7.0
+Stable tag: 2.5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 MH Magazine lite WordPress Theme, Copyright 2013-2016 MH Themes
@@ -66,6 +66,12 @@ Overview: http://www.mhthemes.com/dev_magazine/credits/
 ==================================
 Changelog
 ==================================
+
+= v2.5.6 09-12-2016 =
+* Removed redundant option to scale background (core functionality in WP 4.7)
+* Removed redundant function mh_magazine_lite_html_class()
+* Moved redundant mh_html_class() function to mh-compatibility.php
+* Updated translation files
 
 = v2.5.5 20-11-2016 =
 * Minor code improvements

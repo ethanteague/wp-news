@@ -3,61 +3,39 @@ msgstr ""
 "Project-Id-Version: MH Magazine lite v2.5.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-11-20 12:00+0100\n"
+"PO-Revision-Date: Fri Dec 09 2016 11:13:49 GMT+0100 (CET)\n"
 "Last-Translator: Michael <info@mhthemes.com>\n"
 "Language-Team: \n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.7\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
-"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
-"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
-"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
-"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Loco-Target-Locale: de_DE\n"
-"X-Poedit-SearchPath-0: .\n"
-
-#. Description of the theme
-msgid ""
-"MH Magazine lite is one of the most popular free responsive magazine, news and "
-"blog WordPress themes for modern online magazines, dynamic news websites, "
-"professional blogs and other editorial websites. This free magazine theme is "
-"perfectly suitable for topics like international news, politics, lifestyle, "
-"fashion, business, sports, gadgets, travel or anything else. If you would like to "
-"gain access to more awesome features, flexible custom widgets and useful options "
-"to customize your website, you can upgrade to the premium version of MH Magazine "
-"and take your website to the next level. You can also learn more about this "
-"dynamic magazine WordPress theme on the MH Themes website."
-msgstr ""
-"MH Magazine lite ist eines der beliebtesten, kostenlosen und für mobile Endgeräte "
-"optimierten Magazin WordPress Themes für moderne Online-Magazine, dynamische "
-"Nachrichtenportale, professionelle Blogs und andere redaktionelle Websites. "
-"Dieses kostenlose Magazin Theme ist ideal geeignet für Themen wie Nachrichten, "
-"Politik, Lifestyle, Fashion, Business, Sport, Gadgets, Reisen oder andere "
-"beliebige Themenbereiche. Für zusätzliche Features, Widgets und Optionen zur "
-"Anpassung der eigenen Website kannst du auf die premium Version von MH Magazine "
-"upgraden. Weitere Informationen zu diesem dynamischen Magazin WordPress Theme "
-"sind auf der MH Themes Website zu finden."
+"X-Poedit-SearchPath-0: ."
 
 # @ mh-magazine-lite
-#: ../404.php:7 ../includes/mh-compatibility.php:38
+#: ../404.php:7 ../includes/mh-compatibility.php:46
 msgid "Page not found (404)"
 msgstr "Seite nicht gefunden (404)"
 
 # @ mh-magazine-lite
 #: ../404.php:12 ../content-none.php:14
 msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can "
-"help."
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
-"Es konnten keine passenden Inhalte gefunden werden. Vielleicht kann Ihnen die "
-"Suchfunktion weiterhelfen."
+"Es konnten keine passenden Inhalte gefunden werden. Vielleicht kann Ihnen "
+"die Suchfunktion weiterhelfen."
 
 # @ mh-magazine-lite
 #: ../404.php:16 ../content-none.php:19
@@ -84,8 +62,8 @@ msgstr "Nachricht ignorieren."
 #: ../admin/admin.php:49
 #, php-format
 msgid ""
-"Thanks for using %s! To get started please make sure you visit our %swelcome page"
-"%s."
+"Thanks for using %s! To get started please make sure you visit our %swelcome "
+"page%s."
 msgstr ""
 "Vielen Dank für die Nutzung von %s! Um loszulegen besuche bitte unsere "
 "%sEinführungsseite%s."
@@ -149,15 +127,15 @@ msgstr "Theme Dokumentation"
 #: ../admin/admin.php:114
 #, php-format
 msgid ""
-"Need any help with configuring %s? The documentation for this theme includes all "
-"theme related information that is needed to get your site up and running in no "
-"time. In case you have any additional questions, feel free to reach out in the "
-"theme support forums on WordPress.org."
+"Need any help with configuring %s? The documentation for this theme includes "
+"all theme related information that is needed to get your site up and running "
+"in no time. In case you have any additional questions, feel free to reach "
+"out in the theme support forums on WordPress.org."
 msgstr ""
-"Ben&ouml;tigst du Hilfe bei der Einrichtung von %s? In der Dokumentation f&uuml;r "
-"dieses Theme findest du alle theme-relevanten Informationen um dieses WordPress "
-"Theme kinderleicht einzurichten. Falls du Fragen hast, so erh&auml;ltst du Hilfe "
-"im Theme Support Forum auf WordPress.org."
+"Ben&ouml;tigst du Hilfe bei der Einrichtung von %s? In der Dokumentation "
+"f&uuml;r dieses Theme findest du alle theme-relevanten Informationen um "
+"dieses WordPress Theme kinderleicht einzurichten. Falls du Fragen hast, so "
+"erh&auml;ltst du Hilfe im Theme Support Forum auf WordPress.org."
 
 # @ mh-magazine-lite
 #: ../admin/admin.php:128 ../admin/admin.php:274 ../includes/mh-customizer.php:80
@@ -168,11 +146,11 @@ msgstr "Theme Optionen"
 #: ../admin/admin.php:131
 #, php-format
 msgid ""
-"%s supports the Theme Customizer for all theme settings. Click \"Customize Theme"
-"\" to open the Customizer now."
+"%s supports the Theme Customizer for all theme settings. Click \"Customize "
+"Theme\" to open the Customizer now."
 msgstr ""
-"%s unterst&uuml;tzt den Theme Customizer f&uuml;r alle Optionen. Klicke \"Theme "
-"anpassen\" um den Customizer zu &ouml;ffnen."
+"%s unterst&uuml;tzt den Theme Customizer f&uuml;r alle Optionen. Klicke "
+"\"Theme anpassen\" um den Customizer zu &ouml;ffnen."
 
 # @ mh-magazine-lite
 #: ../admin/admin.php:135
@@ -187,13 +165,13 @@ msgstr "MH Magazine Pro"
 # @ mh-magazine-lite
 #: ../admin/admin.php:147 ../includes/mh-customizer.php:16
 msgid ""
-"If you like the free version of this theme, you will LOVE the full version of MH "
-"Magazine which includes unique custom widgets, additional features and more "
-"useful options to customize your website."
+"If you like the free version of this theme, you will LOVE the full version "
+"of MH Magazine which includes unique custom widgets, additional features and "
+"more useful options to customize your website."
 msgstr ""
-"Falls dir dieses kostenlose Theme gef&auml;llt, so wirst du die Vollversion von "
-"MH Magazine mit den zus&auml;tzlichen Custom Widgets, Features und Optionen "
-"lieben, um damit deine Website flexibel aufzusetzen."
+"Falls dir dieses kostenlose Theme gef&auml;llt, so wirst du die Vollversion "
+"von MH Magazine mit den zus&auml;tzlichen Custom Widgets, Features und "
+"Optionen lieben, um damit deine Website flexibel aufzusetzen."
 
 # @ mh-magazine-lite
 #: ../admin/admin.php:151 ../admin/admin.php:308 ../includes/mh-customizer.php:52
@@ -210,10 +188,10 @@ msgid ""
 "options to customize your website. We have created several theme demos as "
 "examples in order to show what is possible with this flexible magazine theme."
 msgstr ""
-"Die Premium Version von MH Magazine beinhaltet viele zus&auml;tzliche Features "
-"und Optionen zur Anpassung deiner Website. Wir haben zahlreiche Theme Demos als "
-"Beispiele erstellt um die Möglichkeiten dieses flexiblen Magazin Themes "
-"aufzuzeigen."
+"Die Premium Version von MH Magazine beinhaltet viele zus&auml;tzliche "
+"Features und Optionen zur Anpassung deiner Website. Wir haben zahlreiche "
+"Theme Demos als Beispiele erstellt um die Möglichkeiten dieses flexiblen "
+"Magazin Themes aufzuzeigen."
 
 #: ../admin/admin.php:165 ../includes/mh-customizer.php:57
 msgid "Theme Demos"
@@ -387,14 +365,14 @@ msgstr[0] "1 Kommentar"
 msgstr[1] "%1$s Kommentare"
 
 # @ mh-magazine-lite
-#: ../comments.php:22 ../includes/mh-custom-functions.php:329 ../includes/mh-
-#: custom-functions.php:346
+#: ../comments.php:22 ../includes/mh-custom-functions.php:318 ../includes/mh-
+#: custom-functions.php:335
 msgid "&laquo;"
 msgstr "&laquo;"
 
 # @ mh-magazine-lite
-#: ../comments.php:22 ../includes/mh-custom-functions.php:330 ../includes/mh-
-#: custom-functions.php:346
+#: ../comments.php:22 ../includes/mh-custom-functions.php:319 ../includes/mh-
+#: custom-functions.php:335
 msgid "&raquo;"
 msgstr "&raquo;"
 
@@ -462,11 +440,11 @@ msgstr "Nichts gefunden"
 # @ mh-magazine-lite
 #: ../content-none.php:10
 msgid ""
-"Sorry, but nothing matched your search terms. Please try again with different "
-"keywords."
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
 msgstr ""
-"Es konnten keine passenden Inhalte gefunden werden. Bitte versuchen Sie es erneut "
-"mit einem anderen Suchbegriff."
+"Es konnten keine passenden Inhalte gefunden werden. Bitte versuchen Sie es "
+"erneut mit einem anderen Suchbegriff."
 
 # @ mh-magazine-lite
 #: ../footer.php:30
@@ -557,11 +535,11 @@ msgstr "Homepage"
 #: ../homepage.php:23 ../homepage.php:41 ../homepage.php:64 ../sidebar.php:12
 #, php-format
 msgid ""
-"Please navigate to %1s in your WordPress dashboard and add some widgets into the "
-"%1s widget area."
+"Please navigate to %1s in your WordPress dashboard and add some widgets into "
+"the %1s widget area."
 msgstr ""
-"Bitte navigiere zu %1s in deinem WordPress Dashboard und platziere Widgets in den "
-"%1s Widgetbereich."
+"Bitte navigiere zu %1s in deinem WordPress Dashboard und platziere Widgets "
+"in den %1s Widgetbereich."
 
 # @ mh-magazine-lite
 #: ../homepage.php:23 ../homepage.php:41 ../homepage.php:64 ../sidebar.php:12
@@ -569,69 +547,69 @@ msgid "Appearance &#8594; Widgets"
 msgstr "Design &#8594; Widgets"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:20
+#: ../includes/mh-compatibility.php:28
 #, php-format
 msgctxt "post author"
 msgid "Articles by %s"
 msgstr "Artikel von %s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:32
+#: ../includes/mh-compatibility.php:40
 msgid "Archives"
 msgstr "Archive"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:40 ../search.php:8
+#: ../includes/mh-compatibility.php:48 ../search.php:8
 #, php-format
 msgid "Search Results for %s"
 msgstr "Suchergebnisse f&uuml;r %s"
 
-#: ../includes/mh-custom-functions.php:102
+#: ../includes/mh-custom-functions.php:91
 #, php-format
 msgid "Articles by %s"
 msgstr "Artikel von %s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:197 ../includes/mh-custom-functions.php:202
+#: ../includes/mh-custom-functions.php:186 ../includes/mh-custom-functions.php:191
 msgid "Back to article"
 msgstr "Zur&uuml;ck zum Artikel"
 
-#: ../includes/mh-custom-functions.php:199 ../includes/mh-custom-functions.php:206
+#: ../includes/mh-custom-functions.php:188 ../includes/mh-custom-functions.php:195
 msgid "Previous"
 msgstr "Vorheriger"
 
-#: ../includes/mh-custom-functions.php:213 ../includes/mh-custom-functions.php:216
+#: ../includes/mh-custom-functions.php:202 ../includes/mh-custom-functions.php:205
 msgid "Next"
 msgstr "Nächster"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:271
+#: ../includes/mh-custom-functions.php:260
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s um %2$s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:277
+#: ../includes/mh-custom-functions.php:266
 msgid "Your comment is awaiting moderation."
 msgstr "Der Kommentar wartet auf Freischaltung."
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:284
+#: ../includes/mh-custom-functions.php:273
 msgid "Edit"
 msgstr "Bearbeiten"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:301
+#: ../includes/mh-custom-functions.php:290
 msgid "Name "
 msgstr "Name"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:302
+#: ../includes/mh-custom-functions.php:291
 msgid "Email "
 msgstr "E-Mail"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:303
+#: ../includes/mh-custom-functions.php:292
 msgid "Website"
 msgstr "Webseite"
 
@@ -700,56 +678,51 @@ msgid "More Features &amp; Options"
 msgstr "Mehr Features &amp; Optionen"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:100
+#: ../includes/mh-customizer.php:99
 msgid "Custom excerpt length in words"
 msgstr "L&auml;nge von Textausz&uuml;gen in Worten"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:101
+#: ../includes/mh-customizer.php:100
 msgid "Custom excerpt more text"
 msgstr "More-Text f&uuml;r Textausz&uuml;ge"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102
+#: ../includes/mh-customizer.php:101
 msgid "Position of default sidebar"
 msgstr "Position der standard Sidebar"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:127
+#: ../includes/mh-customizer.php:101 ../includes/mh-customizer.php:125
 msgid "Left"
 msgstr "Links"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:128
+#: ../includes/mh-customizer.php:101 ../includes/mh-customizer.php:126
 msgid "Right"
 msgstr "Rechts"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103
+#: ../includes/mh-customizer.php:102
 msgid "Author Box"
 msgstr "Autorbox"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103 ../includes/mh-customizer.php:104 ..
-#: includes/mh-customizer.php:129
+#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:103 ..
+#: includes/mh-customizer.php:127
 msgid "Enable"
 msgstr "Aktivieren"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103 ../includes/mh-customizer.php:104 ..
-#: includes/mh-customizer.php:130
+#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:103 ..
+#: includes/mh-customizer.php:128
 msgid "Disable"
 msgstr "Deaktivieren"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:104
+#: ../includes/mh-customizer.php:103
 msgid "Post/Attachment Navigation"
 msgstr "Seiten-/Artikelnavigation"
-
-# @ mh-magazine-lite
-#: ../includes/mh-customizer.php:106
-msgid "Scale background image to full size"
-msgstr "Hintergrundbild an Browserfenster anpassen"
 
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-custom-posts.php:8
@@ -761,8 +734,8 @@ msgstr "MH Custom Posts [lite]"
 #: ../includes/widgets/mh-custom-posts.php:11
 msgid "Custom Posts Widget to display posts based on categories or tags."
 msgstr ""
-"Custom Posts Widget um Artikel basierend auf Kategorien oder Schlagw&ouml;rtern "
-"anzuzeigen."
+"Custom Posts Widget um Artikel basierend auf Kategorien oder Schlagw&ouml;"
+"rtern anzuzeigen."
 
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-custom-posts.php:112 ../includes/widgets/mh-posts-focus.
@@ -832,8 +805,8 @@ msgstr "Info:"
 #: posts-stacked.php:165 ../includes/widgets/mh-slider.php:148 ..
 #: includes/widgets/mh-tabbed.php:97
 msgid ""
-"This is the lite version of this widget with basic features. More features and "
-"options are available in the premium version of MH Magazine."
+"This is the lite version of this widget with basic features. More features "
+"and options are available in the premium version of MH Magazine."
 msgstr ""
 "Dies ist die Lite Version dieses Widgets mit abgespektem Funktionsumfang. "
 "Zus&auml;tzliche Features und Optionen sind in der Premium Version von MH "
@@ -848,11 +821,11 @@ msgstr "MH Posts Focus [lite]"
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-posts-focus.php:11
 msgid ""
-"MH Posts Focus widget to display 5 posts with focus on large post in the middle "
-"(if placed in full-width widget area)."
+"MH Posts Focus widget to display 5 posts with focus on large post in the "
+"middle (if placed in full-width widget area)."
 msgstr ""
-"MH Posts Focus Widget um 5 Artikel mit Fokus auf den gro&szlig;en Artikel in der "
-"Mitte anzuzeigen (falls in einem breiten Widgetbereich platziert)."
+"MH Posts Focus Widget um 5 Artikel mit Fokus auf den gro&szlig;en Artikel in "
+"der Mitte anzuzeigen (falls in einem breiten Widgetbereich platziert)."
 
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-posts-focus.php:65 ../includes/widgets/mh-posts-focus.
@@ -871,7 +844,8 @@ msgstr "MH Posts Large [lite]"
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-posts-large.php:11
 msgid ""
-"MH Posts Large widget to display posts (large-sized) including thumbnail images."
+"MH Posts Large widget to display posts (large-sized) including thumbnail "
+"images."
 msgstr "MH Posts Large Widget um Artikel mit großen Thumbnails anzuzeigen."
 
 # @ mh-magazine-lite
@@ -883,11 +857,11 @@ msgstr "MH Posts Stacked [lite]"
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-posts-stacked.php:11
 msgid ""
-"MH Posts Stacked widget to display 5 stacked posts nicely including thumbnail, "
-"title and meta data."
+"MH Posts Stacked widget to display 5 stacked posts nicely including "
+"thumbnail, title and meta data."
 msgstr ""
-"MH Posts Stacked Widget um 5 gestapelte Artikel inklusive Thumbnail, Titel und "
-"Meta Daten anzuzeigen."
+"MH Posts Stacked Widget um 5 gestapelte Artikel inklusive Thumbnail, Titel "
+"und Meta Daten anzuzeigen."
 
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-slider.php:8
@@ -940,6 +914,29 @@ msgstr "Full Width"
 #. Theme URI of the theme
 msgid "http://www.mhthemes.com/themes/mh/magazine-lite/"
 msgstr "http://www.mhthemes.com/themes/mh/magazine-lite/"
+
+#. Description of the theme
+msgid ""
+"MH Magazine lite is one of the most popular free responsive magazine, news "
+"and blog WordPress themes for modern online magazines, dynamic news websites,"
+" professional blogs and other editorial websites. This free magazine theme "
+"is perfectly suitable for topics like international news, politics, "
+"lifestyle, fashion, business, sports, gadgets, travel or anything else. If "
+"you would like to gain access to more awesome features, flexible custom "
+"widgets and useful options to customize your website, you can upgrade to the "
+"premium version of MH Magazine and take your website to the next level. You "
+"can also learn more about this dynamic magazine WordPress theme on the MH "
+"Themes website."
+msgstr ""
+"MH Magazine lite ist eines der beliebtesten, kostenlosen und für mobile "
+"Endgeräte optimierten Magazin WordPress Themes für moderne Online-Magazine, "
+"dynamische Nachrichtenportale, professionelle Blogs und andere redaktionelle "
+"Websites. Dieses kostenlose Magazin Theme ist ideal geeignet für Themen wie "
+"Nachrichten, Politik, Lifestyle, Fashion, Business, Sport, Gadgets, Reisen "
+"oder andere beliebige Themenbereiche. Für zusätzliche Features, Widgets und "
+"Optionen zur Anpassung der eigenen Website kannst du auf die premium Version "
+"von MH Magazine upgraden. Weitere Informationen zu diesem dynamischen "
+"Magazin WordPress Theme sind auf der MH Themes Website zu finden."
 
 #. Author of the theme
 msgid "MH Themes"

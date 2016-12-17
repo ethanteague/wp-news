@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MH Magazine lite v2.5.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: Sun Nov 20 2016 11:50:36 GMT+0100 (CET)\n"
+"PO-Revision-Date: Fri Dec 09 2016 11:14:43 GMT+0100 (CET)\n"
 "Last-Translator: Michael <info@mhthemes.com>\n"
 "Language-Team: \n"
 "Language: Russian\n"
@@ -306,16 +306,16 @@ msgid ""
 "the %1s widget area."
 msgstr ""
 
-#: ../includes/mh-custom-functions.php:102
+#: ../includes/mh-custom-functions.php:91
 #, php-format
 msgid "Articles by %s"
 msgstr ""
 
-#: ../includes/mh-custom-functions.php:199 ../includes/mh-custom-functions.php:206
+#: ../includes/mh-custom-functions.php:188 ../includes/mh-custom-functions.php:195
 msgid "Previous"
 msgstr ""
 
-#: ../includes/mh-custom-functions.php:213 ../includes/mh-custom-functions.php:216
+#: ../includes/mh-custom-functions.php:202 ../includes/mh-custom-functions.php:205
 msgid "Next"
 msgstr ""
 
@@ -469,7 +469,7 @@ msgid "MH Themes"
 msgstr ""
 
 # @ mh-magazine-lite
-#: ../404.php:7 ../includes/mh-compatibility.php:38
+#: ../404.php:7 ../includes/mh-compatibility.php:46
 msgid "Page not found (404)"
 msgstr "Страница не найдена (ошибка 404)"
 
@@ -552,14 +552,14 @@ msgid "Rate this theme"
 msgstr "Оценить эту тему"
 
 # @ mh-magazine-lite
-#: ../comments.php:22 ../includes/mh-custom-functions.php:329 ../includes/mh-
-#: custom-functions.php:346
+#: ../comments.php:22 ../includes/mh-custom-functions.php:318 ../includes/mh-
+#: custom-functions.php:335
 msgid "&laquo;"
 msgstr "&laquo;"
 
 # @ mh-magazine-lite
-#: ../comments.php:22 ../includes/mh-custom-functions.php:330 ../includes/mh-
-#: custom-functions.php:346
+#: ../comments.php:22 ../includes/mh-custom-functions.php:319 ../includes/mh-
+#: custom-functions.php:335
 msgid "&raquo;"
 msgstr "&raquo;"
 
@@ -696,56 +696,56 @@ msgid "Appearance &#8594; Widgets"
 msgstr "Внешний Вид &#8594; Виджеты"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:20
+#: ../includes/mh-compatibility.php:28
 #, php-format
 msgctxt "post author"
 msgid "Articles by %s"
 msgstr "Статьи по %s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:32
+#: ../includes/mh-compatibility.php:40
 msgid "Archives"
 msgstr "Архивы"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:40 ../search.php:8
+#: ../includes/mh-compatibility.php:48 ../search.php:8
 #, php-format
 msgid "Search Results for %s"
 msgstr "Результаты поиска для %s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:197 ../includes/mh-custom-functions.php:202
+#: ../includes/mh-custom-functions.php:186 ../includes/mh-custom-functions.php:191
 msgid "Back to article"
 msgstr "Вернуться к статье"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:271
+#: ../includes/mh-custom-functions.php:260
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s at %2$s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:277
+#: ../includes/mh-custom-functions.php:266
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации."
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:284
+#: ../includes/mh-custom-functions.php:273
 msgid "Edit"
 msgstr "Редактировать"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:301
+#: ../includes/mh-custom-functions.php:290
 msgid "Name "
 msgstr "Имя "
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:302
+#: ../includes/mh-custom-functions.php:291
 msgid "Email "
 msgstr "Email "
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:303
+#: ../includes/mh-custom-functions.php:292
 msgid "Website"
 msgstr "Вебсайт"
 
@@ -760,56 +760,51 @@ msgid "Layout"
 msgstr "Макет"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:100
+#: ../includes/mh-customizer.php:99
 msgid "Custom excerpt length in words"
 msgstr "Количество слов в записи"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:101
+#: ../includes/mh-customizer.php:100
 msgid "Custom excerpt more text"
 msgstr "Текст для обозначения продолжения отрывка записи"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102
+#: ../includes/mh-customizer.php:101
 msgid "Position of default sidebar"
 msgstr "Позиция боковой панели по умолчанию"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:127
+#: ../includes/mh-customizer.php:101 ../includes/mh-customizer.php:125
 msgid "Left"
 msgstr "Слева"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:128
+#: ../includes/mh-customizer.php:101 ../includes/mh-customizer.php:126
 msgid "Right"
 msgstr "Справа"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103
+#: ../includes/mh-customizer.php:102
 msgid "Author Box"
 msgstr "Поле Автор"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103 ../includes/mh-customizer.php:104 ..
-#: includes/mh-customizer.php:129
+#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:103 ..
+#: includes/mh-customizer.php:127
 msgid "Enable"
 msgstr "Включить"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103 ../includes/mh-customizer.php:104 ..
-#: includes/mh-customizer.php:130
+#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:103 ..
+#: includes/mh-customizer.php:128
 msgid "Disable"
 msgstr "Отключить"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:104
+#: ../includes/mh-customizer.php:103
 msgid "Post/Attachment Navigation"
 msgstr "Пост/Приложение Навигации"
-
-# @ mh-magazine-lite
-#: ../includes/mh-customizer.php:106
-msgid "Scale background image to full size"
-msgstr "Масштабировать фоновое изображение во весь экран"
 
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-custom-posts.php:11

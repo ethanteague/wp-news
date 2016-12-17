@@ -8,9 +8,6 @@ $mh_magazine_lite_options = get_option('mh_magazine_lite_options');
 
 /***** Custom Hooks *****/
 
-function mh_html_class() {
-    do_action('mh_html_class');
-}
 function mh_before_header() {
     do_action('mh_before_header');
 }

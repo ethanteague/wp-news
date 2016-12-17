@@ -93,7 +93,6 @@ function mh_magazine_lite_customize_register($wp_customize) {
     $wp_customize->add_setting('mh_magazine_lite_options[author_box]', array('default' => 'enable', 'type' => 'option', 'sanitize_callback' => 'mh_sanitize_select'));
     $wp_customize->add_setting('mh_magazine_lite_options[post_nav]', array('default' => 'enable', 'type' => 'option', 'sanitize_callback' => 'mh_sanitize_select'));
 	$wp_customize->add_setting('mh_magazine_lite_options[premium_version_upgrade]', array('default' => '', 'type' => 'option', 'sanitize_callback' => 'esc_attr'));
-    $wp_customize->add_setting('mh_magazine_lite_options[full_bg]', array('default' => '', 'type' => 'option', 'sanitize_callback' => 'mh_sanitize_checkbox'));
 
     /***** Add Controls *****/
 
@@ -103,7 +102,6 @@ function mh_magazine_lite_customize_register($wp_customize) {
     $wp_customize->add_control('author_box', array('label' => esc_html__('Author Box', 'mh-magazine-lite'), 'section' => 'mh_magazine_lite_layout', 'settings' => 'mh_magazine_lite_options[author_box]', 'priority' => 2, 'type' => 'select', 'choices' => array('enable' => esc_html__('Enable', 'mh-magazine-lite'), 'disable' => esc_html__('Disable', 'mh-magazine-lite'))));
     $wp_customize->add_control('post_nav', array('label' => esc_html__('Post/Attachment Navigation', 'mh-magazine-lite'), 'section' => 'mh_magazine_lite_layout', 'settings' => 'mh_magazine_lite_options[post_nav]', 'priority' => 4, 'type' => 'select', 'choices' => array('enable' => esc_html__('Enable', 'mh-magazine-lite'), 'disable' => esc_html__('Disable', 'mh-magazine-lite'))));
 	$wp_customize->add_control(new MH_Magazine_Lite_Upgrade($wp_customize, 'premium_version_upgrade', array('section' => 'mh_magazine_lite_upgrade', 'settings' => 'mh_magazine_lite_options[premium_version_upgrade]', 'priority' => 1)));
-	$wp_customize->add_control('full_bg', array('label' => esc_html__('Scale background image to full size', 'mh-magazine-lite'), 'section' => 'background_image', 'settings' => 'mh_magazine_lite_options[full_bg]', 'priority' => 99, 'type' => 'checkbox'));
 }
 add_action('customize_register', 'mh_magazine_lite_customize_register');
 
@@ -151,7 +149,6 @@ if (!function_exists('mh_magazine_lite_theme_options')) {
 if (!function_exists('mh_magazine_lite_default_options')) {
 	function mh_magazine_lite_default_options() {
 		$default_options = array(
-			'full_bg' => '',
 			'excerpt_length' => 25,
 			'excerpt_more' => '[...]',
 			'sb_position' => 'right',

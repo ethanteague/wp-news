@@ -2,6 +2,12 @@
 
 /***** Deprecated functionality *****/
 
+/** Custom Hooks - Scheduled for removal **/
+
+function mh_html_class() {
+    do_action('mh_html_class');
+}
+
 /** Page Title Output - Scheduled for removal **/
 
 if (!function_exists('mh_magazine_lite_page_title')) {

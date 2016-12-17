@@ -1,0 +1,14 @@
+/*****
+Theme Name: News Child
+Description: Child theme of MH Magazine lite.
+Author: Peter Gozinya
+Template: mh-newsdesk-lite
+Version: 2.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mh-newsdesk-lite
+*****/
+
+.content-thumb.content-lead-thumb img.attachment-content-single.size-content-single.wp-post-image {
+	width: 100%;
+}

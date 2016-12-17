@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MH Magazine lite v2.5.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: Sun Nov 20 2016 11:48:52 GMT+0100 (CET)\n"
+"PO-Revision-Date: Fri Dec 09 2016 11:13:42 GMT+0100 (CET)\n"
 "Last-Translator: Michael <info@mhthemes.com>\n"
 "Language-Team: \n"
 "Language: Czech\n"
@@ -256,16 +256,16 @@ msgstr ""
 msgid "Appearance &#8594; Widgets"
 msgstr ""
 
-#: ../includes/mh-custom-functions.php:102
+#: ../includes/mh-custom-functions.php:91
 #, php-format
 msgid "Articles by %s"
 msgstr ""
 
-#: ../includes/mh-custom-functions.php:199 ../includes/mh-custom-functions.php:206
+#: ../includes/mh-custom-functions.php:188 ../includes/mh-custom-functions.php:195
 msgid "Previous"
 msgstr ""
 
-#: ../includes/mh-custom-functions.php:213 ../includes/mh-custom-functions.php:216
+#: ../includes/mh-custom-functions.php:202 ../includes/mh-custom-functions.php:205
 msgid "Next"
 msgstr ""
 
@@ -304,7 +304,7 @@ msgid "http://www.mhthemes.com/"
 msgstr ""
 
 # @ mh-magazine-lite
-#: ../404.php:7 ../includes/mh-compatibility.php:38
+#: ../404.php:7 ../includes/mh-compatibility.php:46
 msgid "Page not found (404)"
 msgstr "Stránka nebyla nalezena (404)"
 
@@ -435,14 +435,14 @@ msgid "Rate this theme"
 msgstr "Hodnotit tento motiv"
 
 # @ mh-magazine-lite
-#: ../comments.php:22 ../includes/mh-custom-functions.php:329 ../includes/mh-
-#: custom-functions.php:346
+#: ../comments.php:22 ../includes/mh-custom-functions.php:318 ../includes/mh-
+#: custom-functions.php:335
 msgid "&laquo;"
 msgstr "&laquo;"
 
 # @ mh-magazine-lite
-#: ../comments.php:22 ../includes/mh-custom-functions.php:330 ../includes/mh-
-#: custom-functions.php:346
+#: ../comments.php:22 ../includes/mh-custom-functions.php:319 ../includes/mh-
+#: custom-functions.php:335
 msgid "&raquo;"
 msgstr "&raquo;"
 
@@ -590,56 +590,56 @@ msgid "Widget area in footer."
 msgstr "Ovládací prvek oblasti zápatí"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:20
+#: ../includes/mh-compatibility.php:28
 #, php-format
 msgctxt "post author"
 msgid "Articles by %s"
 msgstr "Články podle %s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:32
+#: ../includes/mh-compatibility.php:40
 msgid "Archives"
 msgstr "Archiv"
 
 # @ mh-magazine-lite
-#: ../includes/mh-compatibility.php:40 ../search.php:8
+#: ../includes/mh-compatibility.php:48 ../search.php:8
 #, php-format
 msgid "Search Results for %s"
 msgstr "Výsledky hledání pro %s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:197 ../includes/mh-custom-functions.php:202
+#: ../includes/mh-custom-functions.php:186 ../includes/mh-custom-functions.php:191
 msgid "Back to article"
 msgstr "Zpět na článek"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:271
+#: ../includes/mh-custom-functions.php:260
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s v %2$s"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:277
+#: ../includes/mh-custom-functions.php:266
 msgid "Your comment is awaiting moderation."
 msgstr "Váš komentář čeká na posouzení moderátorem diskuse."
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:284
+#: ../includes/mh-custom-functions.php:273
 msgid "Edit"
 msgstr "Upravit"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:301
+#: ../includes/mh-custom-functions.php:290
 msgid "Name "
 msgstr "Jméno"
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:302
+#: ../includes/mh-custom-functions.php:291
 msgid "Email "
 msgstr "E-mail "
 
 # @ mh-magazine-lite
-#: ../includes/mh-custom-functions.php:303
+#: ../includes/mh-custom-functions.php:292
 msgid "Website"
 msgstr "Webová stránka"
 
@@ -704,56 +704,51 @@ msgid "Layout"
 msgstr "Rozložení"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:100
+#: ../includes/mh-customizer.php:99
 msgid "Custom excerpt length in words"
 msgstr "Uživatelská délka výpisu ve slovech"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:101
+#: ../includes/mh-customizer.php:100
 msgid "Custom excerpt more text"
 msgstr "Zobrazit více textu"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102
+#: ../includes/mh-customizer.php:101
 msgid "Position of default sidebar"
 msgstr "Výchozí pozice postranního panelu"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:127
+#: ../includes/mh-customizer.php:101 ../includes/mh-customizer.php:125
 msgid "Left"
 msgstr "Vlevo"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:128
+#: ../includes/mh-customizer.php:101 ../includes/mh-customizer.php:126
 msgid "Right"
 msgstr "Vpravo"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103
+#: ../includes/mh-customizer.php:102
 msgid "Author Box"
 msgstr "Pole autora"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103 ../includes/mh-customizer.php:104 ..
-#: includes/mh-customizer.php:129
+#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:103 ..
+#: includes/mh-customizer.php:127
 msgid "Enable"
 msgstr "Aktivovat"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:103 ../includes/mh-customizer.php:104 ..
-#: includes/mh-customizer.php:130
+#: ../includes/mh-customizer.php:102 ../includes/mh-customizer.php:103 ..
+#: includes/mh-customizer.php:128
 msgid "Disable"
 msgstr "Deaktivovat"
 
 # @ mh-magazine-lite
-#: ../includes/mh-customizer.php:104
+#: ../includes/mh-customizer.php:103
 msgid "Post/Attachment Navigation"
 msgstr "Příspěvek/Příloha navigace"
-
-# @ mh-magazine-lite
-#: ../includes/mh-customizer.php:106
-msgid "Scale background image to full size"
-msgstr "Měřítko obrázku na pozadí v plné velikosti"
 
 # @ mh-magazine-lite
 #: ../includes/widgets/mh-custom-posts.php:8

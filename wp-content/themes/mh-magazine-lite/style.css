@@ -4,7 +4,7 @@ Theme URI: http://www.mhthemes.com/themes/mh/magazine-lite/
 Description: MH Magazine lite is one of the most popular free responsive magazine, news and blog WordPress themes for modern online magazines, dynamic news websites, professional blogs and other editorial websites. This free magazine theme is perfectly suitable for topics like international news, politics, lifestyle, fashion, business, sports, gadgets, travel or anything else. If you would like to gain access to more awesome features, flexible custom widgets and useful options to customize your website, you can upgrade to the premium version of MH Magazine and take your website to the next level. You can also learn more about this dynamic magazine WordPress theme on the MH Themes website.
 Author: MH Themes
 Author URI: http://www.mhthemes.com/
-Version: 2.5.5
+Version: 2.5.6
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, footer-widgets, translation-ready, rtl-language-support, blog, entertainment, news
 Text Domain: mh-magazine-lite
 Domain Path: /languages/
@@ -26,7 +26,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 html { font-size: 100%; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; }
 body { font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; line-height: 1.6; background: #f7f7f7; word-wrap: break-word; }
-.fullbg .custom-background { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .mh-container, .mh-container-inner { width: 100%; max-width: 1080px; margin: 0 auto; position: relative; }
 .mh-container-outer { margin: 25px auto; -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); -moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); }
 .mh-wrapper { padding: 25px; background: #fff; }
@@ -577,7 +576,6 @@ div.wpcf7-response-output { margin: 20px 0 15px; }
 	#mh-mobile .mh-posts-stacked-title-small, .mh-widget-col-1 .mh-posts-stacked-title-large { font-size: 13px; padding: 2px 5px; }
 }
 @media screen and (max-width: 767px) {
-	.fullbg .custom-background { background-size: auto; }
 	.js .slicknav_menu { display: block; }
 	.js .mh-main-nav { display: none; }
 	.mh-custom-header, .mh-content, .mh-sidebar, .mh-right-sb #main-content, .mh-left-sb #main-content, #mh-mobile .mh-footer-area { float: none; width: 100%; margin: 0; }
