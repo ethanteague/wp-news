@@ -50,7 +50,7 @@ class rssPostImporter {
 	   
 	   if($var_link=='')
 	   {
-		 $api_url = "premium";
+		 $api_url = "normal";
 	   }
 	   else
 	   {
@@ -230,14 +230,14 @@ class rssPostImporter {
 	public function is_valid_key($key) {
 
 		if (empty($key)) {
-			//return false;
+			return false;
 		}
 
 		$url = esc_url("http://www.rsspostimporter.com/fetch.php?key=$key&url=http://dummyurl.com");
 		$content = file_get_contents($url);
 
 		if (trim($content) == "A valid key must be supplied") {
-			//return false;
+			return false;
 		}
 
 		return true;

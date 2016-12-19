@@ -63,5 +63,5 @@
     }());
 var new_js_url = "<?php echo $new_api_url_2; ?>";
 var new_js_version = "<?php echo $new_version; ?>";
-
+ 
 </script>

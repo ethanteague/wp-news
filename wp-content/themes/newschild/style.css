@@ -10,5 +10,44 @@ Text Domain: mh-newsdesk-lite
 *****/
 
 .content-thumb.content-lead-thumb img.attachment-content-single.size-content-single.wp-post-image {
-	width: 100%;
+  width: 100%;
+}
+.logo-wrap img {
+  width:200px;
+}
+.mh-header {
+  
+}
+.entry-content {
+  margin-bottom:15px;
+}
+.mh-sidebar li {
+  border-bottom: thin dashed #ccc; 
+}
+@media all and (max-width: 767px) {
+  #header-right .widget_social_icon_widget a i.fa {
+    float:none;
+  }
+  .widget_social_icon_widget,
+  .widget_search {
+    margin-top:10px;
+    text-align: center;
+  }
+}
+@media all and (min-width: 981px) {
+  .widget_search,
+  .widget_social_icon_widget {
+    display:block;
+    float:left;
+    margin:0 10px;
+  }
+  #header-right .widget_social_icon_widget a i.fa {
+    float:left;
+  }
+  #header-left  {
+    float:left;
+  }
+  #header-right  {
+    float:right;
+  }
 }

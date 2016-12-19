@@ -59,7 +59,7 @@ class rssPIEngine {
 	foreach ($this->options['feeds'] as $i => $f) {
 
 			// before the first feed, we check for key validity
-			/*if ( $i == 0 ) {
+			if ( $i == 0 ) {
 				$this->is_key_valid = $rss_post_importer->is_valid_key($this->options['settings']['feeds_api_key']);
 				$this->options['settings']['is_key_valid'] = $this->is_key_valid;
 				// if the key is not fine
@@ -77,8 +77,7 @@ class rssPIEngine {
 				);
 				// update in db
 				update_option('rss_pi_feeds', $new_options);
-			}*/
-    update_option('rss_pi_feeds', $new_options);
+			}
 
 			// prepare, import feed and count imported posts
 			if ( $items = $this->do_import($f) ) {

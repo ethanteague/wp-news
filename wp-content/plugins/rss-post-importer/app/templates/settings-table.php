@@ -48,8 +48,8 @@
 							<label for="feeds_api_key"><?php _e('Full Text RSS Feed API Key', "rss-post-importer"); ?></label>
 							<?php if ( ! $this->is_key_valid ) : ?>
 							<p class="description">
-								<?php _e('Boost Your traffic with Full RSS Content - ', "rss-post-importer"); ?>
-								Request a Free 14 Days <a href="http://www.feedsapi.com/?utm_source=rsspi-full-rss-key-here" target="_blank"> Full RSS Key Here !</a>
+								<?php _e('Boost Your traffic with Full RSS Content - ', "rss-post-importer"); ?> 
+								Request a Free 14 Days <a href="http://www.feedsapi.com/?utm_source=rsspi-full-rss-key-here" target="_blank"> Full RSS Key Here !</a> 
 							</p>
 							<?php endif; ?>
 						</td>
@@ -98,7 +98,10 @@
 						<td>
 							<?php
 							$disabled = '';
-
+							if (!$this->is_key_valid) {
+								$disabled = ' disabled="disabled"';
+								$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=keywords-filters&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+							}
 							?>
 							<textarea name="keyword_filter" id="post_template" cols="30" rows="10"<?php echo $disabled; ?>><?php
 								echo implode(', ', $this->options['settings']['keywords']);
@@ -239,7 +242,10 @@
 						<td>
 							<?php
 							$disabled = '';
-
+							if (!$this->is_key_valid) {
+								$disabled = ' disabled="disabled"';
+								$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=import-deleted&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+							}
 							?>
 							<ul class="radiolist">
 								<li>
@@ -260,11 +266,14 @@
 						<td>
 							<?php
 							$disabled = '';
-
+							if (!$this->is_key_valid) {
+								$disabled = ' disabled="disabled"';
+								$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=purge-deleted-cache&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+							}
 							?>
 							<?php $rss_pi_deleted_posts = count( get_option( 'rss_pi_deleted_posts', array() ) ); ?>
 							<p><?php printf( _n('Cached: <strong>%d</strong> deleted post', 'Cached: <strong>%d</strong> deleted posts', $rss_pi_deleted_posts, 'rss-post-importer'), $rss_pi_deleted_posts ); ?></p>
-							<input type="submit" value="Purge Cache" name="purge_deleted_cache" class="button button-primary button-large"<?php echo $disabled; ?> />
+							<input type="submit" value="Purge Cache" name="purge_deleted_cache" class="button button-primary button-large"<?php echo $disabled; ?> />     
 						</td> 
 					</tr>
 					<?php } ?>
@@ -276,7 +285,10 @@
 						<td>
 						<?php
 						$disabled = '';
-
+						if (!$this->is_key_valid) {
+							$disabled = ' disabled="disabled"';
+							$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=export-feeds&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+						}
 						?>
 							<input type="submit" value="Export your Feeds and Setting as CSV File" name="csv_download" class="button button-primary button-large"<?php echo $disabled; ?> />     
 						</td> 
@@ -300,7 +312,10 @@ strip_html = strip html tags - "true" or "false"', "rss-post-importer"); ?></p>
 						<td>
 						<?php
 						$disabled = '';
-
+						if (!$this->is_key_valid) {
+							$disabled = ' disabled="disabled"';
+							$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=import-feeds&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+						}
 						?>
 							<input type="file" name="import_csv"<?php echo $disabled; ?> />
 						</td> 
@@ -313,9 +328,12 @@ strip_html = strip html tags - "true" or "false"', "rss-post-importer"); ?></p>
 						<td>
 						<?php
 						$disabled = '';
-
+						if (!$this->is_key_valid) {
+							$disabled = ' disabled="disabled"';
+							$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=export-opml&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+						}
 						?>
-							<input type="submit" value="Export your Feeds as OPML File" name="export_opml" class="button button-primary button-large"<?php echo $disabled; ?> />
+							<input type="submit" value="Export your Feeds as OPML File" name="export_opml" class="button button-primary button-large"<?php echo $disabled; ?> />     
 						</td> 
 					</tr>
 					<tr>
@@ -326,7 +344,10 @@ strip_html = strip html tags - "true" or "false"', "rss-post-importer"); ?></p>
 						<td>
 						<?php
 						$disabled = '';
-
+						if (!$this->is_key_valid) {
+							$disabled = ' disabled="disabled"';
+							$this->key_error( sprintf( $this->key_prompt, '', 'http://www.feedsapi.com/?utm_source=rsspostimporter&utm_medium=upgrade&utm_term=import-opml&utm_content=rsspi-full-rss-key-here&utm_campaign=wordpress' ), true );
+						}
 						?>
 							<input type="file" name="import_opml"<?php echo $disabled; ?> />
 						</td> 
