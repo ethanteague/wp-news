@@ -95,7 +95,6 @@ add_action('widgets_init', 'mh_newsdesk_lite_widgets_init');
 
 /***** Include Several Functions *****/
 
-//add_action( 'save_post', 'my_project_updated_send_email' );
 require_once('includes/mh-customizer.php');
 require_once('includes/mh-custom-functions.php');
 require_once('includes/mh-widgets.php');
@@ -103,4 +102,5 @@ require_once('includes/mh-widgets.php');
 if (is_admin()) {
 	require_once('admin/admin.php');
 }
+
 ?>

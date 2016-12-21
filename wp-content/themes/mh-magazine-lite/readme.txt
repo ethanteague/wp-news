@@ -1,9 +1,9 @@
 === MH Magazine lite WordPress Theme ===
-Theme URI: http://www.mhthemes.com/themes/mh/magazine-lite/
+Theme URI: https://www.mhthemes.com/themes/mh/magazine-lite/
 Tags: Blog, Magazine
 Requires at least: 4.5.0
 Tested up to: 4.7.0
-Stable tag: 2.5.6
+Stable tag: 2.5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 MH Magazine lite WordPress Theme, Copyright 2013-2016 MH Themes
@@ -13,13 +13,13 @@ MH Magazine lite is distributed under the terms of the GNU GPL
 Description
 ==================================
 
-MH Magazine lite is a free responsive magazine, dynamic news or blog WordPress theme for modern online magazines, news websites, professional blogs and other editorial websites. If you would like to have more features, custom widgets and options to customize your website, you can upgrade to the premium version of MH Magazine. You can also learn more about this dynamic magazine WordPress theme on the MH Themes website: http://www.mhthemes.com/themes/mh/magazine/
+MH Magazine lite is a free responsive magazine, dynamic news or blog WordPress theme for modern online magazines, news websites, professional blogs and other editorial websites. If you would like to have more features, custom widgets and options to customize your website, you can upgrade to the premium version of MH Magazine. You can also learn more about this dynamic magazine WordPress theme on the MH Themes website: https://www.mhthemes.com/themes/mh/magazine/
 
 ==================================
 Documentation & Theme Support
 ==================================
 
-In case you have any questions regarding your WordPress theme, please visit our support center where you can find the theme documentation, tutorials and a lot of helpful information: http://www.mhthemes.com/support/
+In case you have any questions regarding your WordPress theme, please visit our support center where you can find the theme documentation, tutorials and a lot of helpful information: https://www.mhthemes.com/support/
 
 ==================================
 Credits
@@ -61,11 +61,14 @@ License: http://opensource.org/licenses/mit-license.php
 7.) Images from Theme Screenshot
 Source: http://pixabay.com/
 License: Free Public Domain (GPL Compatible)
-Overview: http://www.mhthemes.com/dev_magazine/credits/
+Overview: http://demo.mh-themes.com/magazine/credits/
 
 ==================================
 Changelog
 ==================================
+
+= v2.5.7 18-12-2016 =
+* Updated theme links to HTTPS
 
 = v2.5.6 09-12-2016 =
 * Removed redundant option to scale background (core functionality in WP 4.7)

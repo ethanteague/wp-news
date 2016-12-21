@@ -14,7 +14,7 @@ MH NewsMagazine can transform your blog into a modern online magazine or dynamic
 Documentation & Theme Support
 ==================================
 
-In order to configure this theme, you can use the same instructions as stated in the theme documentation of MH Magazine: http://www.mhthemes.com/support/documentation-mh-magazine/
+In order to configure this theme, you can use the same instructions as stated in the theme documentation of MH Magazine: https://www.mhthemes.com/support/documentation-mh-magazine/
 
 If you have any additional questions, you can ask your questions in the theme support forums on WordPress.org and our support staff will be more than happy to assist.
 
@@ -53,6 +53,9 @@ https://pixabay.com/en/statue-liberty-freedom-america-usa-309467/
 ==================================
 Changelog
 ==================================
+
+= v1.1.2 18-12-2016 =
+* Updated theme links to HTTPS
 
 = v1.1.1 04-10-2016 =
 * Removed redundant code

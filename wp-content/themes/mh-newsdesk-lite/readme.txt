@@ -1,9 +1,9 @@
 === MH Newsdesk lite - Dynamic News WordPress Theme ===
-Theme URI: http://www.mhthemes.com/themes/mh/newsdesk-lite/
+Theme URI: https://www.mhthemes.com/themes/mh/newsdesk-lite/
 Tags: Magazine, News, Blog, Responsive
 Requires at least: 4.1.0
 Tested up to: 4.7.0
-Stable tag: 1.3.5
+Stable tag: 1.3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 MH Newsdesk lite WordPress Theme, Copyright 2015-2016 MH Themes
@@ -19,7 +19,7 @@ MH Newsdesk is a modern and dynamic news WordPress theme with a beautiful flat d
 Documentation & Theme Support
 ==================================
 
-In case you have any questions regarding your WordPress theme, please visit our support center where you can find the theme documentation, tutorials and a lot of helpful information: http://www.mhthemes.com/support/
+In case you have any questions regarding your WordPress theme, please visit our support center where you can find the theme documentation, tutorials and a lot of helpful information: https://www.mhthemes.com/support/
 
 ==================================
 Licenses of bundled Resources
@@ -56,6 +56,9 @@ Overview: http://demo.mhthemes.com/newsdesk/credits/
 ==================================
 Changelog
 ==================================
+
+= v1.3.6 18-12-2016 =
+* Updated theme links to HTTPS
 
 = v1.3.5 03-12-2016 =
 * Minor CSS adjustments

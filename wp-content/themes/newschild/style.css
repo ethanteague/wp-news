@@ -15,8 +15,8 @@ Text Domain: mh-newsdesk-lite
 .logo-wrap img {
   width:200px;
 }
-.mh-header {
-  
+img#wd_captcha1 {
+  display:inline !important;
 }
 .entry-content {
   margin-bottom:15px;

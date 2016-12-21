@@ -48,7 +48,7 @@ if (!function_exists('mh_newsdesk_lite_welcome_notice')) {
 			</a>
 			<p><?php printf(esc_html__('Thanks for using %s! To get started please make sure you visit our %swelcome page%s.', 'mh-newsdesk-lite'), $mh_newsdesk_lite_data['Name'], '<a href="' . esc_url(admin_url('themes.php?page=newsdesk')) . '">', '</a>'); ?></p>
 			<p class="mh-welcome-notice-button">
-				<a class="button-secondary" href="<?php echo esc_url(admin_url('themes.php?page=newsdesk')); ?>">
+				<a class="button-primary" href="<?php echo esc_url(admin_url('themes.php?page=newsdesk')); ?>">
 					<?php printf(esc_html__('Get Started with %s', 'mh-newsdesk-lite'), $mh_newsdesk_lite_data['Name']); ?>
 				</a>
 			</p>
@@ -84,16 +84,16 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 			<div class="theme-links clearfix">
 				<p>
 					<strong><?php esc_html_e('Important Links:', 'mh-newsdesk-lite'); ?></strong>
-					<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/newsdesk-lite/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/newsdesk-lite/'); ?>" target="_blank">
 						<?php esc_html_e('Theme Info Page', 'mh-newsdesk-lite'); ?>
 					</a>
-					<a href="<?php echo esc_url('http://www.mhthemes.com/support/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://www.mhthemes.com/support/'); ?>" target="_blank">
 						<?php esc_html_e('Support Center', 'mh-newsdesk-lite'); ?>
 					</a>
 					<a href="<?php echo esc_url('https://wordpress.org/support/theme/mh-newsdesk-lite'); ?>" target="_blank">
 						<?php esc_html_e('Support Forum', 'mh-newsdesk-lite'); ?>
 					</a>
-					<a href="<?php echo esc_url('http://www.mhthemes.com/themes/showcase/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://www.mhthemes.com/themes/showcase/'); ?>" target="_blank">
 						<?php esc_html_e('MH Themes Showcase', 'mh-newsdesk-lite'); ?>
 					</a>
 				</p>
@@ -114,7 +114,7 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 								<?php printf(esc_html__('Need any help with configuring %s? The documentation for this theme includes all theme related information that is needed to get your site up and running in no time. In case you have any additional questions, feel free to reach out in the theme support forums on WordPress.org.', 'mh-newsdesk-lite'), $mh_newsdesk_lite_data['Name']); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/support/documentation-mh-newsdesk/'); ?>" target="_blank" class="button button-secondary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/support/documentation-mh-newsdesk/'); ?>" target="_blank" class="button button-secondary">
 									<?php esc_html_e('Visit Documentation', 'mh-newsdesk-lite'); ?>
 								</a>
 								<a href="<?php echo esc_url('https://wordpress.org/support/theme/mh-newsdesk-lite'); ?>" target="_blank" class="button button-secondary">
@@ -147,7 +147,7 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 								<?php esc_html_e('If you like the free version of this theme, you will LOVE the full version of MH Newsdesk which includes unique custom widgets, additional features and more useful options to customize your website.', 'mh-newsdesk-lite'); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/newsdesk/'); ?>" target="_blank" class="button button-primary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/newsdesk/'); ?>" target="_blank" class="button button-primary">
 									<?php esc_html_e('Upgrade to MH Newsdesk Pro', 'mh-newsdesk-lite'); ?>
 								</a>
 							</p>
@@ -161,7 +161,7 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 								<?php esc_html_e('Need some inspiration? In the MH Themes Showcase you can see websites of other users who are running WordPress themes by MH Themes.', 'mh-newsdesk-lite'); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/showcase/'); ?>" target="_blank" class="button button-secondary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/showcase/'); ?>" target="_blank" class="button button-secondary">
 									<?php esc_html_e('MH Themes Showcase', 'mh-newsdesk-lite'); ?>
 								</a>
 							</p>
@@ -187,7 +187,7 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 							<td><h3><?php esc_html_e('Theme Price', 'mh-newsdesk-lite'); ?></h3></td>
 							<td><?php esc_html_e('Free', 'mh-newsdesk-lite'); ?></td>
 							<td>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/pricing/#join'); ?>" target="_blank">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/pricing/#join'); ?>" target="_blank">
 									<?php esc_html_e('View Pricing', 'mh-newsdesk-lite'); ?>
 								</a>
 							</td>
@@ -296,7 +296,7 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 							<td></td>
 							<td></td>
 							<td>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/newsdesk/'); ?>" target="_blank" class="upgrade-button">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/newsdesk/'); ?>" target="_blank" class="upgrade-button">
 									<?php esc_html_e('Upgrade to MH Newsdesk Pro', 'mh-newsdesk-lite'); ?>
 								</a>
 							</td>
@@ -308,7 +308,7 @@ if (!function_exists('mh_newsdesk_lite_display_theme_info_page')) {
 			<div id="theme-author">
 				<p><?php printf(esc_html__('%1s is proudly brought to you by %2s. If you like %3s: %4s.', 'mh-newsdesk-lite'),
 					$mh_newsdesk_lite_data['Name'],
-					'<a target="_blank" href="http://www.mhthemes.com/" title="MH Themes">MH Themes</a>',
+					'<a target="_blank" href="https://www.mhthemes.com/" title="MH Themes">MH Themes</a>',
 					$mh_newsdesk_lite_data['Name'],
 					'<a target="_blank" href="https://wordpress.org/support/view/theme-reviews/mh-newsdesk-lite?filter=5" title="MH Newsdesk lite Review">' . esc_html__('Rate this theme', 'mh-newsdesk-lite') . '</a>'); ?>
 				</p>

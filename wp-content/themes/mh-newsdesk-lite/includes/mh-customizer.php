@@ -42,17 +42,17 @@ function mh_newsdesk_lite_customize_register($wp_customize) {
 	        	</li>
         	</ul>
 			<p class="mh-button mh-upgrade-button">
-				<a href="http://www.mhthemes.com/themes/mh/newsdesk/" target="_blank" class="button button-secondary">
+				<a href="https://www.mhthemes.com/themes/mh/newsdesk/" target="_blank" class="button button-secondary">
 					<?php esc_html_e('Upgrade to MH Newsdesk Pro', 'mh-newsdesk-lite'); ?>
 				</a>
 			</p>
 			<p class="mh-button">
-				<a href="http://www.mhthemes.com/themes/showcase/" target="_blank" class="button button-secondary">
+				<a href="https://www.mhthemes.com/themes/showcase/" target="_blank" class="button button-secondary">
 					<?php esc_html_e('MH Themes Showcase', 'mh-newsdesk-lite'); ?>
 				</a>
 			</p>
 			<p class="mh-button">
-				<a href="http://www.mhthemes.com/support/documentation-mh-newsdesk/" target="_blank" class="button button-secondary">
+				<a href="https://www.mhthemes.com/support/documentation-mh-newsdesk/" target="_blank" class="button button-secondary">
 					<?php esc_html_e('Theme Documentation', 'mh-newsdesk-lite'); ?>
 				</a>
 			</p>

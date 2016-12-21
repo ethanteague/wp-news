@@ -84,16 +84,16 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 			<div class="theme-links clearfix">
 				<p>
 					<strong><?php esc_html_e('Important Links:', 'mh-magazine-lite'); ?></strong>
-					<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/magazine-lite/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/magazine-lite/'); ?>" target="_blank">
 						<?php esc_html_e('Theme Info Page', 'mh-magazine-lite'); ?>
 					</a>
-					<a href="<?php echo esc_url('http://www.mhthemes.com/support/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://www.mhthemes.com/support/'); ?>" target="_blank">
 						<?php esc_html_e('Support Center', 'mh-magazine-lite'); ?>
 					</a>
 					<a href="<?php echo esc_url('https://wordpress.org/support/theme/mh-magazine-lite'); ?>" target="_blank">
 						<?php esc_html_e('Support Forum', 'mh-magazine-lite'); ?>
 					</a>
-					<a href="<?php echo esc_url('http://www.mhthemes.com/themes/showcase/'); ?>" target="_blank">
+					<a href="<?php echo esc_url('https://www.mhthemes.com/themes/showcase/'); ?>" target="_blank">
 						<?php esc_html_e('MH Themes Showcase', 'mh-magazine-lite'); ?>
 					</a>
 				</p>
@@ -114,7 +114,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 								<?php printf(esc_html__('Need any help with configuring %s? The documentation for this theme includes all theme related information that is needed to get your site up and running in no time. In case you have any additional questions, feel free to reach out in the theme support forums on WordPress.org.', 'mh-magazine-lite'), $mh_magazine_lite_data['Name']); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/support/documentation-mh-magazine/'); ?>" target="_blank" class="button button-secondary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/support/documentation-mh-magazine/'); ?>" target="_blank" class="button button-secondary">
 									<?php esc_html_e('Theme Documentation', 'mh-magazine-lite'); ?>
 								</a>
 								<a href="<?php echo esc_url('https://wordpress.org/support/theme/mh-magazine-lite'); ?>" target="_blank" class="button button-secondary">
@@ -147,7 +147,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 								<?php esc_html_e('If you like the free version of this theme, you will LOVE the full version of MH Magazine which includes unique custom widgets, additional features and more useful options to customize your website.', 'mh-magazine-lite'); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/magazine/'); ?>" target="_blank" class="button button-primary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/magazine/'); ?>" target="_blank" class="button button-primary">
 									<?php esc_html_e('Upgrade to MH Magazine Pro', 'mh-magazine-lite'); ?>
 								</a>
 							</p>
@@ -161,10 +161,10 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 								<?php esc_html_e('The premium version of MH Magazine includes lots of additional features and options to customize your website. We have created several theme demos as examples in order to show what is possible with this flexible magazine theme.', 'mh-magazine-lite'); ?>
 							</p>
 							<p>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/magazine/#demos'); ?>" target="_blank" class="button button-secondary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/magazine/#demos'); ?>" target="_blank" class="button button-secondary">
 									<?php esc_html_e('Theme Demos', 'mh-magazine-lite'); ?>
 								</a>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/showcase/'); ?>" target="_blank" class="button button-secondary">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/showcase/'); ?>" target="_blank" class="button button-secondary">
 									<?php esc_html_e('MH Themes Showcase', 'mh-magazine-lite'); ?>
 								</a>
 							</p>
@@ -190,7 +190,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 							<td><h3><?php esc_html_e('Theme Price', 'mh-magazine-lite'); ?></h3></td>
 							<td><?php esc_html_e('Free', 'mh-magazine-lite'); ?></td>
 							<td>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/pricing/#join'); ?>" target="_blank">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/pricing/#join'); ?>" target="_blank">
 									<?php esc_html_e('View Pricing', 'mh-magazine-lite'); ?>
 								</a>
 							</td>
@@ -304,7 +304,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 							<td></td>
 							<td></td>
 							<td>
-								<a href="<?php echo esc_url('http://www.mhthemes.com/themes/mh/magazine/'); ?>" target="_blank" class="upgrade-button">
+								<a href="<?php echo esc_url('https://www.mhthemes.com/themes/mh/magazine/'); ?>" target="_blank" class="upgrade-button">
 									<?php esc_html_e('Upgrade to MH Magazine Pro', 'mh-magazine-lite'); ?>
 								</a>
 							</td>
@@ -315,7 +315,7 @@ if (!function_exists('mh_magazine_lite_display_theme_page')) {
 			<hr>
 			<div id="theme-author">
 				<p>
-					<?php printf(esc_html__('%1s is proudly brought to you by %2s. If you like %3s: %4s.', 'mh-magazine-lite'), $mh_magazine_lite_data['Name'], '<a target="_blank" href="http://www.mhthemes.com/" title="MH Themes">MH Themes</a>', $mh_magazine_lite_data['Name'], '<a target="_blank" href="https://wordpress.org/support/view/theme-reviews/mh-magazine-lite?filter=5" title="MH Magazine lite Review">' . esc_html__('Rate this theme', 'mh-magazine-lite') . '</a>'); ?>
+					<?php printf(esc_html__('%1s is proudly brought to you by %2s. If you like %3s: %4s.', 'mh-magazine-lite'), $mh_magazine_lite_data['Name'], '<a target="_blank" href="https://www.mhthemes.com/" title="MH Themes">MH Themes</a>', $mh_magazine_lite_data['Name'], '<a target="_blank" href="https://wordpress.org/support/view/theme-reviews/mh-magazine-lite?filter=5" title="MH Magazine lite Review">' . esc_html__('Rate this theme', 'mh-magazine-lite') . '</a>'); ?>
 				</p>
 			</div>
 		</div><?php
