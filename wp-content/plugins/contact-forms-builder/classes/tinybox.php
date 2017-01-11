@@ -64,6 +64,6 @@ class wpda_form_Tinybox {
 		return $buttons;
 	}
 }
-//	wpda_form_Tinybox class's functionality is been commented, to use it please uncomment the follwoing object 
+//	wpda_form_Tinybox class's functionality has been commented, to use it please uncomment the follwoing object 
 //$obj = new wpda_form_Tinybox();
 ?>

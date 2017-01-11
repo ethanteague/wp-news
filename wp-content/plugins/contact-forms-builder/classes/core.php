@@ -35,7 +35,7 @@ class wpdevartForms {
 		$this->slug['submissions']	= $settings['base_slug'] . '-submissions';
 		$this->slug['extra_settings']	= $settings['base_slug'] . '-extra-settings';
 		
-		//set roles for users who can access this plugin
+		// Set roles for users who can access this plugin
 		$allowed_roles = array('editor', 'administrator');
 		
 		//	ENQUEUE SCIPTS AND STYLES FOR wpdevart WIDGETS
@@ -44,11 +44,11 @@ class wpdevartForms {
 		add_action('admin_init', array($this, 'wpda_form_export_form') );
 		add_action('admin_init', array($this, 'wpda_form_export_form_submissions') );
 		
-		//add post page button
+		// Add post page button
 		add_filter( 'mce_external_plugins', array( $this ,'mce_external_plugins' ) );
 		add_filter( 'mce_buttons', array($this, 'mce_buttons' ) );
 		
-		// ajax hook for mce button
+		// Ajax hook for mce button
 		add_action("wp_ajax_wpdevart_forms_mce_ajax",array($this,"wpdevart_forms_mce_ajax"));
 
 		//	wp_get_current_user() required pluggable.php defined in wp-includes/pluggable.php
@@ -57,7 +57,7 @@ class wpdevartForms {
 		if( array_intersect($allowed_roles, $user_role->roles )){
 			
 			
-			// plugin version
+			// Plugin version
 			if(get_option("wpdevart_forms_plugin_version")) {
 				update_option("wpdevart_forms_plugin_version", wpda_form_PLUGIN_VERSION);
 			} else {
@@ -73,7 +73,7 @@ class wpdevartForms {
 			}
 		}	
 	}
-	// admin post page tinmce buttons
+	// Admin post/page tinmce buttons
 	public function mce_external_plugins( $plugin_array ) {
 		$plugin_array['wpdevart_forms'] = wpda_form_PLUGIN_URI. 'assets/js/mce-button.js';
 		return $plugin_array;

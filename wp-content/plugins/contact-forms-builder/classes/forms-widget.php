@@ -22,7 +22,7 @@ class wpdevartFormsWidget extends WP_Widget {
 	}
 
 
-	//	Set widget's default arguments, how it should look on admin's widgets when moved to a widget area
+	//	Set widget's default arguments, how it should look on admin widgets when moved to a widget area
 	function widget( $args, $instance ) {
 		extract ( $args, EXTR_SKIP );
 		$title = ( $instance['title'] ) ? $instance['title'] : 'Title of wpdevart Forms';
@@ -34,7 +34,7 @@ class wpdevartFormsWidget extends WP_Widget {
 		echo $after_widget; 
 	}
 	
-	// Function form here is wordpress built-in function
+	// Function form here is the WordPress built-in function
 	function form( $instance ) {
 		$defaults = array(
 			'title'	=> '',
@@ -81,7 +81,7 @@ class wpdevartFormsWidget extends WP_Widget {
 <?php
 	} // Function form( $instance ) {
 	
-} // class WpDevArt Text extends WP_Widget {
+} // Class WpDevArt Text extends WP_Widget {
 
 /**
  * Registering the widget

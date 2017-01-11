@@ -35,7 +35,7 @@ function wpda_form_email_submit($atts) {
 	if(isset($_POST['btn_send_form_email'])) { 
 	
         
-		//	check whether the form was submited using ajax call 
+		//	Check whether the form was submited using ajax call 
 		if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
 	 		$atts = json_decode(stripslashes($_POST['atts'])) ;
 			$atts = wpda_form_object_to_array($atts);
@@ -108,7 +108,7 @@ function wpda_form_email_submit($atts) {
 			}
 		}
  		
-		//	check if radio or checkbox field is enabled in form, in that case user should provide at least 1 radio/checkbox otherwise print Error Message
+		//	Check if radio or checkbox field is enabled in form, in that case user should provide at least 1 radio/checkbox otherwise print Error Message
 		$radio_checkbox_fields = $wpdb->get_results($wpdb->prepare( "SELECT * FROM ".$wpda_form_table['fields']." WHERE fk_form_id=%d and (fieldtype='radio' || fieldtype='checkbox')",$form_id));
 		if($radio_checkbox_fields) {
 			foreach($radio_checkbox_fields as $radio_checkbox_field) {
@@ -129,9 +129,9 @@ function wpda_form_email_submit($atts) {
 		
 		$recaptcha_flag = 0;       
 	 	
-		//	check whether reCaptcha was set in the form
+		//	Check whether reCaptcha was set in the form
         
-       //   make sure user can not remove recaptha field by inspect element on browser
+       //   Make sure that users can't remove recaptha by inspect element on browser
         foreach($form_fields as $fkey => $fvalue) {
             if($form_fields[$fkey]->fieldtype == 'recaptcha' && !isset($_POST['recaptchaSumValue']) )
                 $recaptcha_flag = 2;

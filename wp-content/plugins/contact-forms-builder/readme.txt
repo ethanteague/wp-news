@@ -4,7 +4,7 @@ Donate link: http://wpdevart.com/wordpress-contact-form-plugin/
 Tags:  form, forms, form builder, contact form, wordpress contact form, contact, free contact form for website, contact us, custom form, contact form builder, contact form manager 
 Requires at least: 3.4.0
 Tested up to: 4.7.0
-Stable tag: 1.0.8
+Stable tag: 1.1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,7 +22,7 @@ Contact Form builder plugin is the most important part of any WordPress website.
 
 [Contact Form Demo](http://demo.wpdevart.com/demo-contact-form-bulder/)
 
-WpDevArt Contact Form has a lot of useful and great features, here are some features of our plugin. 
+WpDevArt Contact Form have a lot of useful and great features, here are some features of our plugin. 
 
 ### Features of WpDevArt Contact Form plugin
 
@@ -139,7 +139,7 @@ There is an Settings button on the right side of form shortcode in form fields p
 
 Dear user, if you need to use just the theme style that you choose from form page, then you can Disable the form styling.
 
-= What files I need to upload for installing the contact form plugin =
+= What files I need to upload for installing the contact form bilder plugin =
 
 You need to select the .zip file only, there is no need to extract the zip file, just upload it.
 
@@ -216,7 +216,7 @@ Below you can check all design settings we have
 
 ### Contact Form style
 
-*   Contact Form Area Width - Set width of the form area in pixels or percentage(%).
+*   Contact Form Area Width - Set width of the form area in pixels(px) or percentage(%).
 *   Contact Form position - Set form position(Left, Center, Reight).
 *   Contact Form Area Background - Set background color of form area.
 *   Set top border of the form area - Border Top(px), Border Style(8 different border styles), Border Color.
@@ -228,7 +228,7 @@ Below you can check all design settings we have
 
 ### Contact Form Fields style
 
-*   Contact Form Field Width - Set width of the form fields in pixels or percentage(%).
+*   Contact Form Field Width - Set width of the form fields in pixels(px) or percentage(%).
 *   Contact Form Field Height - Set height of the form fields in pixels.
 *   Contact Form Field Background - Set background color of the form field.
 *   Contact Form Field Focus Background - Set background color of the form field on focus.
@@ -245,7 +245,7 @@ Below you can check all design settings we have
 ### Contact Form Fields Labels style
 
 *   Hide Fields Labels - Hide labels on front-end.
-*   Contact Form Label Width - Set width of the contact form field labels in pixels or percentage(%).
+*   Contact Form Label Width - Set width of the contact form field labels in pixels(px) or percentage(%).
 *   Typography for Form Field Labels - Set font family, font style, font size, line height and color for contact form fields Labels.
 
 ### Submit Button Styling style
@@ -311,3 +311,11 @@ Configure design settings and then save it.
 = 1.0.7 =
 
 *  Added comments in main php files.
+
+= 1.0.8 =
+
+*  Edited function names and comments in plugin files.
+
+= 1.0.9 =
+
+*  Edit code comments.

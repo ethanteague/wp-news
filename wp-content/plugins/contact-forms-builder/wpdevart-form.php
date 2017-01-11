@@ -3,7 +3,7 @@
  * Plugin Name: Contact Form WpDevArt
  * Plugin URI: http://wpdevart.com/wordpress-contact-form-plugin/
  * Description: Contact Form plugin is an handy and functional tool for creating and editing different types of contact forms for your WordPress website contact page. Contact Form builder plugin is the most important part of any WordPress website.  
- * Version: 1.0.8
+ * Version: 1.1.0
  * Author: wpdevart
  * License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -12,7 +12,7 @@
 //plugin version
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define('wpda_form_PLUGIN_VERSION', "1.0.8"); 
+define('wpda_form_PLUGIN_VERSION', "1.1.0"); 
 
 //	define secific directories paths to include .php files
 //	returns full path of current file if used in any file

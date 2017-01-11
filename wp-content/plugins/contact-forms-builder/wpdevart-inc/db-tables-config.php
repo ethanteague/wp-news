@@ -1,6 +1,6 @@
 <?php 
 /**
- * We're going to use $wpda_form_table as global array for our db interactions
+ * We're going to use $wpda_form_table as global array for our database interactions
  * it is declared as global because local variable will not be 
  * accessible as activation hook to run properly
  *

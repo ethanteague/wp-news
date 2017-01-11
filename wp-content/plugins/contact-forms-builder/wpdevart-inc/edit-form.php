@@ -213,7 +213,7 @@ $update_flag = 0;
 								  $checkbox_arr = array ();
                                   
 								  
-								  //	let us fill these array so that we already knew which subfields were selected as default
+								  //	Let us fill these array so that we already knew which subfields were selected as default
 								  foreach ($_POST as $name => $value) {
 									  $explode = explode('_', $name);
 									  
@@ -221,7 +221,7 @@ $update_flag = 0;
 										$label_arr[$explode[1]]= sanitize_text_field($name);
 									  }
 									  
-									  //	we are filling these arrays with names of subfields that are in database 
+									  //	We are filling these arrays with names of subfields that are in database 
 									  if($explode[0] == "fieldtype") {
 										$fieldtype_arr[$explode[1]] = sanitize_text_field($_POST[$name]);
 									  }
@@ -251,10 +251,10 @@ $update_flag = 0;
                                       
 								  } 
 								  
-								  //	go through the form and update/add their corresponding fields 
+								  //	Go through the forms and update/add their corresponding fields 
 								  foreach ($_POST as $name => $value) {
 									
-									  //	explode name to get the field name
+									  //	Explode name to get the field name
 									  $explode = explode('_', $name);
 									 
 									  if($explode[0] == "label") {	   

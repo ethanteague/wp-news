@@ -82,7 +82,7 @@ function wpdevart_template($atts) {
 										$error_msg = "You do not have permission to view this form. Thanks.<br>";
 									}
 								}
-								// both are set
+								// Both are set
 								if(isset($atts['author']) && isset($atts['role']) ) {
 									
 									if( wpda_form_cur_user_role_allowed($atts['role']) || wpda_form_cur_author_allowed($atts['author']) ) {
@@ -105,12 +105,12 @@ function wpdevart_template($atts) {
 						
 						
 	
-						// include styles and scripts for form
+						// Include styles and scripts for form
 						$arr = array("frontend_template" => $frontend_template);
 						wpda_form_enqueue_frontend_styles_scripts($arr);
 						unset($arr);
 	
-						// check whether labels to show on frontend or not 
+						// Check whether labels to show on frontend or not 
 						$all_styles = get_option('wpdevart_forms_style');
 						if( $all_styles ) {
 							$form_style_found = wpda_form_form_styling_exists ( $form_id, $all_styles ); //return 1,0
@@ -121,7 +121,7 @@ function wpdevart_template($atts) {
 							}
 						}
 	
-						//	get the form name  label from the database based on id we get from the short code
+						//	Get the form name  label from the database based on id we get from the short code
 						$form_name = $wpdb->get_var( $wpdb->prepare("SELECT name FROM ".$wpda_form_table['wpdevart_forms']." WHERE id=%d",$form_id)); // e.g contact form
 						$form_name = stripslashes_deep(wp_kses($form_name, $allowed_html_tags)); 
 						?>
@@ -138,16 +138,16 @@ function wpdevart_template($atts) {
 	
                         
                         $initData = '';
-						// loop through the form fields
+						// Loop through the form fields
 						foreach ($form_fields as $key => $form_field) {
 	
-							//	we will now check if the current field [e.g skills] have subfields[e.g programming, designing] or not 
+							//	We will now check if the current field [e.g skills] have subfields[e.g programming, designing] or not 
 							$field_subfields = wpda_form_has_subfield($form_field, $form_id); // wpda_form_has_subfield() defined below this document
                             
-							// subfields found
+							// Subfields found
 							if( !empty($field_subfields) ) {	
 								if($form_field->fieldtype == "radio" || $form_field->fieldtype == "checkbox" || $form_field->fieldtype == "options_list") {
-									// count subfields related to that parent field 
+									// Count subfields related to that parent field 
 									$field_subfields_count = count($field_subfields);
 									?>
 									<div class="wpdevart-sub-fields">
@@ -158,7 +158,7 @@ function wpdevart_template($atts) {
 	
 									<div class="wpdevart-sub-fields-inner">
 									<?php 
-									// loop through the subfields to show them on page
+									// Loop through the subfields to show them on page
 	
 									$field_counter = 1;
 									foreach($field_subfields as $key => $field_subfield) { 	

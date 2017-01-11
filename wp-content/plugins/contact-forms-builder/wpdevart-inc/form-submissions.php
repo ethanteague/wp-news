@@ -2,7 +2,7 @@
 /**
  * Enlists all form submissions of relevant form
  *
- * @package wpdevart Forms
+ * @package WpDevArt Forms
  * @since	1.0
  */
 if ( ! defined( 'ABSPATH' ) ) exit;

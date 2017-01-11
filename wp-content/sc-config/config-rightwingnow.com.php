@@ -8,5 +8,6 @@
   'in_memory_cache' => 'memcached',
   'page_cache_length' => 1440,
   'cache_exception_urls' => '',
+  'enable_url_exemption_regex' => false,
 ); 
 

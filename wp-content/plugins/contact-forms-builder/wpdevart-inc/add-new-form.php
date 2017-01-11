@@ -4,7 +4,7 @@
  * IMPORTANT:	on Add New form page, we have a settings tab which is collapsed by default
 				but in php, its storing form fields although its not visible on page
  *
- * @package wpdevart Forms
+ * @package WpDevArt Forms
  * @since	1.0
  */
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -37,7 +37,7 @@ if(isset($_POST['btn_save_wpdevart_form'])  && wp_verify_nonce( $_POST['wpdevart
 	//
  
 	
-	// checkbox may not have checked
+	// Checkbox may not have checked
 	$after_submit_hide_form =  "1"; 
 	
 	// Where attachments should go , 1 = Backend & Email , 2 = Only Backend ,3 = Only Email
@@ -83,12 +83,12 @@ if(isset($_POST['btn_save_wpdevart_form'])  && wp_verify_nonce( $_POST['wpdevart
 						'upload_file_extension_error_msg' => $upload_file_extension_error_msg
 						
 						 );
-	// encode form paramsters in json formate
+	// Encode form paramsters in json formate
 	$params = json_encode($param_arr);
 						
 	
-	//	create form in the database and get the created form id back
-	// form object icnludes forms  meta data e.g form name, datatime etc
+	//	Create form in the database and get the created form id back
+	// Form object icnludes forms  meta data e.g form name, datatime etc
 	$wpdb->insert( $wpda_form_table['wpdevart_forms'], array(  'id'  =>  '',
 													  'name' => wpda_form_append_integer_similiar_names($form_name), 
 													  'params'=> $params,

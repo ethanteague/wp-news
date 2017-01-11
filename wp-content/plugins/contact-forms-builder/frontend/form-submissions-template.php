@@ -409,7 +409,7 @@ function wpdevart_form_submissions_template($atts) {
 						echo "<p>There are no submissions for this form yet.</p>";
 					}
 
-					//	pagination
+					//	Pagination
 					if($total_records > 0) {
 						//echo (( $cur_page * $per_page ) - ( $per_page - 1 )).'-'.($form_num-1).' of '.$total_records;
 						$pages=  paginate_links( array(
