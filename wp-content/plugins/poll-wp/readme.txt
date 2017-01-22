@@ -4,7 +4,7 @@ Donate link: total-soft.pe.hu/poll
 Tags: poll, polling, polls, rate, ratings, surveys, vote, wordpress poll, poll statistic, Photo Poll, poll plugin, responsive poll,
 Requires at least: 3.4
 Tested up to: 4.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,15 +12,15 @@ Poll WP plugin is a responsive and customizable for WordPress. Poll plugin will 
 
 == Description ==
 
-**Poll WP**
-
 #### Poll WordPress plugin allows you to create polls on your WordPress site. It has many powerful features to put very beautiful and easy to use polls on your website. You can create / edit polls, change the color and appearance. If you are looking for a simple, easy but very professional polls on your website, this plugin is what you are looking for.
 
 * [Buy Poll Pro](http://total-soft.pe.hu/poll)
 * [Poll Support](mailito:totalsoft.team@gmail.com)
 * [Live Poll Demo](http://total-soft.pe.hu/poll-standard-1/)
 
-Total Soft Poll is a robust yet complete WordPress plugin to help everyone create and manage polls effectively. This plugin is built to show polls in posts, pages and widgets of WordPress. Along with various setting options in each poll, Total Soft Poll has a user-friendly interface design that assists you during setting process.
+Poll plugin is a robust yet complete WordPress plugin to help everyone create and manage polls effectively. 
+
+Poll plugin is built to show polls in posts, pages and widgets of WordPress. Along with various setting options in each poll, Total Soft Poll has a user-friendly interface design that assists you during setting process.
 
 
 > ### Live Poll Demos.
@@ -124,13 +124,16 @@ After activating Poll plugin, choose the type of version you wish to use.
 
 Yes, the basic version of Poll is completely free.
 
+
 = There are some restrictions for adding answers? =
 
 There is no limit for the amount of answers. You can add as many answers as you want. Poll plugin has no limitations.
 
+
 = When I update plugin free version of the commercial version, I lose all the things that I have made up in the free version of the Poll? =
 
 Of course No. Total-Soft team was thought about this problem. Before that , what was created in the free version will remain unless you delete and replace the commercial version.
+
 
 = How can I add a poll on the widget? =
 
@@ -141,9 +144,11 @@ Go to the widget, and then add our WordPress plugin Poll widget to the sidebar. 
 
 Yes, just post the following shortcode to any post / page: [Total_Soft_Poll ID = "N"], where N is the survey ID.
 
+
 = Can I add the same poll in different pages? =
 
 Yes. You can add the same poll at different posts and widgets at the same time.
+
 
 = There are some restrictions for adding polls? =
 
@@ -151,11 +156,13 @@ There is no limit for the amount of polls.
 
 You can add as many polls as you want. Plugin has no limitations.
 
+
 = Do you have some problems with plugin instalation? =
 
 You can contact with our [Support team] (mailto:totalsoft.team@gmail.com), they will help you to quickly install a poll plugin.
 
 We are always ready to help everyone.
+
 
 = How to get an updated version? =
 
@@ -163,9 +170,11 @@ Pro users can get updated version of the poll plugin contacting with us at the f
 
 Free version users can find the update notification on their WordPress Admin panel.
 
+
 = Pay for the Pro version, and until now have not recieved the link or file updating. Please help. What to do? =
 
 If you make a purchase and haven't received Poll-WP.zip file, or you just got and it have some problem, contact us on our email address totalsoft.team@gmail.com. Please send us the order number which you received after purchasing the Poll WP. We will check it and send you directly.
+
 
 = You bought the Pro version, installed it in WordPress but You still see the free version. What to do? =
 
@@ -173,9 +182,11 @@ This can occur from browser caches.
 
 Click ctrl+f5 (Chrome, FF, for completely refreshing) If you are using Safar or another browser please clean the storage.
 
+
 = Where to change the settings? =
 
 The settings you can change in the manager's poll. This options is only for Pro version.
+
 
 = Where can I see a working demo? =
 
@@ -195,6 +206,10 @@ A fully featured [Poll WP demo](http://total-soft.pe.hu/poll-standard-1/) is now
 
 == Changelog ==
 
+= Version 1.0.2 =
+
+* Fixed Syntax Error
+
 = Version 1.0.1 =
 
 * Added new menu in the plugin.
@@ -213,7 +228,7 @@ A fully featured [Poll WP demo](http://total-soft.pe.hu/poll-standard-1/) is now
 >[Poll Demo Version](http://total-soft.pe.hu/poll-standard-1/) | [Poll Demo Version](http://total-soft.pe.hu/poll-standard-2/) | [Poll Demo Version](http://total-soft.pe.hu/poll-standard-3/)
 >
 
-#### Poll plugin created for those who really appreciate the beauty and taste.
+### Poll plugin created for those who really appreciate the beauty and taste.
 
 ### Step 1 Creating an Poll
 

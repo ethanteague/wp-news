@@ -2,11 +2,11 @@
 Theme URI: https://www.mhthemes.com/themes/mh/magazine-lite/
 Tags: Blog, Magazine
 Requires at least: 4.5.0
-Tested up to: 4.7.0
-Stable tag: 2.5.7
+Tested up to: 4.7.1
+Stable tag: 2.5.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-MH Magazine lite WordPress Theme, Copyright 2013-2016 MH Themes
+MH Magazine lite WordPress Theme, Copyright 2013-2017 MH Themes
 MH Magazine lite is distributed under the terms of the GNU GPL
 
 ==================================
@@ -66,6 +66,10 @@ Overview: http://demo.mh-themes.com/magazine/credits/
 ==================================
 Changelog
 ==================================
+
+= v2.5.8 16-01-2017 =
+* Minor CSS adjustments
+* Replaced pagination on archives with WordPress core function the_posts_pagination()
 
 = v2.5.7 18-12-2016 =
 * Updated theme links to HTTPS

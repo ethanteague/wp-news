@@ -9,7 +9,7 @@ blockquote { padding: 5px 15px 5px 0; border-right: 5px solid #e64946; border-le
 .mh-left-sb #main-content { float: left; margin-right: 2.5%; margin-left: 0; }
 .mh-home-area-4 { margin-right: 3.52%; margin-left: 0; }
 [class*='mh-col-'] { float: right; margin-right: 2.5%; margin-left: 0; }
-.screen-reader-text, .mh-author-box .screen-reader-text, .search-form .screen-reader-text { right: -9999rem; left: auto; }
+.screen-reader-text { right: -9999rem; left: auto; }
 .entry-content ul, .entry-content ol { margin: 0 40px 20px 0; }
 .entry-content ul ul, .entry-content ol ol { margin: 0 40px 0 0; }
 dl { margin: 0 20px 10px 0; }

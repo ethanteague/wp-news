@@ -97,7 +97,7 @@
 							font-family: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_Q_FF;?>;
 							text-align: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_Q_TA;?>;
 							padding: 5px 10px;
-						}
+						}						
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_LAQ_Div_<?php echo $Total_Soft_Poll;?>
 						{
 							position: relative;
@@ -118,14 +118,15 @@
 							width: 100%;
 							padding: 0px 5px;
 							background-color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_A_BgC;?>;
-							margin-top: 5px;
-
+							margin-top: 3px;
+							line-height: 1 !important;
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_<?php echo $Total_Soft_Poll;?>
 						{
 							display: inline-block; 
 							float: none;
 							width: 100%;
+							font-family: FontAwesome;
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Check_Div:hover
 						{
@@ -145,6 +146,7 @@
 							<?php }?>
 							font-size: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_A_FS;?>px !important;
 							cursor: pointer;
+							margin-bottom: 0px !important;
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Check_Div input + label:before {
 							color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_CH_CBC;?>;
@@ -181,7 +183,7 @@
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_MDiv_<?php echo $Total_Soft_Poll;?>
 						{
-							padding: 5px;
+							padding: 0px;
 							background-color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_MBgC;?>;
 							position: relative;
 						    float: left;
@@ -189,7 +191,7 @@
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Result_<?php echo $Total_Soft_Poll;?>
 						{
-							background-color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BgC;?> !important;
+							background: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BgC;?> !important;
 							border: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BW;?>px solid <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BC;?> !important;
 							border-radius: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BR;?>px !important;
 							<?php if($Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_Pos=='right'){ ?>
@@ -198,11 +200,14 @@
 							<?php }else if($Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_Pos=='left'){ ?>
 								margin: 10px 10px;
 							<?php }else if($Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_Pos=='full'){ ?>
-								width: 100% !important;
-								margin: 5px 0px;
+								width: 98% !important;
+								margin: 5px 1%;
 							<?php }?>								
 							color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_C;?> !important;
-							padding: 8px 15px !important;
+							padding: 3px 10px !important;
+							text-transform: none !important;
+							line-height: 1 !important;
+							cursor: pointer;							
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Result_<?php echo $Total_Soft_Poll;?> span
 						{
@@ -211,8 +216,9 @@
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Result_<?php echo $Total_Soft_Poll;?>:hover
 						{
-							background-color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_RB_HBgC;?> !important;
+							background: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_RB_HBgC;?> !important;
 							color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_RB_HC;?> !important;
+							opacity: 1 !important;
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Result_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Result_But_Icon
 						{						
@@ -230,7 +236,7 @@
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Vote_<?php echo $Total_Soft_Poll;?>
 						{
-							background-color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_BgC;?> !important;
+							background: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_BgC;?> !important;
 							border: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_BW;?>px solid <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_BC;?> !important;
 							border-radius: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_BR;?>px !important;
 							<?php if($Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_Pos=='right'){ ?>
@@ -239,11 +245,14 @@
 							<?php }else if($Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_Pos=='left'){ ?>
 								margin: 10px 10px;
 							<?php }else if($Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_Pos=='full'){ ?>
-								width: 100% !important;
-								margin: 5px 0px;
+								width: 98% !important;
+								margin: 5px 1%;
 							<?php }?>								
 							color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_C;?> !important;
-							padding: 8px 15px !important;
+							padding: 3px 10px !important;
+							text-transform: none !important;
+							line-height: 1 !important;
+							cursor: pointer;							
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Vote_<?php echo $Total_Soft_Poll;?> span
 						{
@@ -252,8 +261,9 @@
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Vote_<?php echo $Total_Soft_Poll;?>:hover
 						{
-							background-color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_HBgC;?> !important;
+							background: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_HBgC;?> !important;
 							color: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_VB_HC;?> !important;
+							opacity: 1 !important;							
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Vote_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Vote_But_Icon
 						{						
@@ -282,8 +292,8 @@
 							}
 							.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Vote_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Result_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>
 							{
-								width: 100% !important;
-								margin: 5px 0px !important;
+								width: 98% !important;
+								margin: 5px 1%;
 							}
 						}
 						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Vote_<?php echo $Total_Soft_Poll;?>:focus, .Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Result_<?php echo $Total_Soft_Poll;?>:focus, .Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>:focus, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>:focus
@@ -702,6 +712,10 @@
 							text-align: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_Q_TA;?>;
 							padding: 5px 10px;
 						}
+						.Total_Soft_Poll_1_Main_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Quest_Div_<?php echo $Total_Soft_Poll;?> label, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Quest_Div_<?php echo $Total_Soft_Poll;?> label, .Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Quest_Div_<?php echo $Total_Soft_Poll;?> label
+						{
+							margin-bottom: 0px !important;
+						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_LAQ_Div_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_LAQ_Div_<?php echo $Total_Soft_Poll;?>
 						{
 							position: relative;
@@ -713,7 +727,7 @@
 						{
 							position: relative;
 							background-color:  <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_A_MBgC;?>;
-							padding: 5px 10px;
+							padding: 0px 10px;
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Check_Div, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Check_Div
 						{
@@ -722,7 +736,8 @@
 							width: 100%;
 							padding: 0px;
 							background-color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_A_BgC;?> !important;
-							margin-top: 5px;
+							margin-top: 3px;
+							line-height: 1 !important
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_<?php echo $Total_Soft_Poll;?>
 						{
@@ -732,6 +747,9 @@
 							font-size: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_A_FS;?>px !important;
 							color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_A_VC;?> !important;
 							position: relative;
+							padding: 3px 0px;
+							line-height: 1 !important;
+							margin-bottom: 0px !important;
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_Sp2_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Ans_Lab_Sp2_<?php echo $Total_Soft_Poll;?>
 						{
@@ -763,16 +781,16 @@
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_MDiv_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_MDiv_<?php echo $Total_Soft_Poll;?>
 						{
-							padding: 5px;
+							padding: 0px;
 							background-color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_MBgC;?>;
 							position: relative;
 						    float: left;
 						    width: 100%;
-						    height: inherit;
+						    height: inherit !important;
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>
 						{
-							background-color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_BgC;?> !important;
+							background: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_BgC;?> !important;
 							border: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BW;?>px solid <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_BC;?> !important;
 							border-radius: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_BR;?>px !important;
 							<?php if($Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_Pos=='right'){ ?>
@@ -781,25 +799,29 @@
 							<?php }else if($Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_Pos=='left'){ ?>
 								margin: 10px 10px;
 							<?php }else if($Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_Pos=='full'){ ?>
-								width: 100% !important;
-								margin: 5px 0px;
+								width: 98% !important;
+								margin: 5px 1%;
 							<?php }?>								
 							color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_C;?> !important;
-							padding: 8px 15px !important;
+							padding: 3px 10px !important;
+							text-transform: none !important;
+							line-height: 1 !important;
+							cursor: pointer;
 						}
-						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>t span, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>t span
+						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?> span, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?> span
 						{
 							font-size: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_FS;?>px !important;
 							font-family: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_FF;?>;
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>:hover, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?>:hover
 						{
-							background-color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_HBgC;?> !important;
+							background: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_HBgC;?> !important;
 							color: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BB_HC;?> !important;
+							opacity: 1 !important;
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Back_But_Icon, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Back_But_Icon
 						{						
-							font-size: <?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_RB_IS;?>px !important;
+							font-size: <?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_RB_IS;?>px !important;
 						}
 						.Total_Soft_Poll_1_Main_Ans_Div_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Back_But_Icon:before, .Total_Soft_Poll_1_Main_Ans_Div_Fix_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_But_Back_<?php echo $Total_Soft_Poll;?> .Total_Soft_Poll_1_Back_But_Icon:before
 						{
@@ -918,7 +940,7 @@
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FRTL' ){ ?>
 									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).css({'transform':'translateX(0px)','-ms-transform': 'translateX(0px)', '-o-transform': 'translateX(0px)','-moz-transform': 'translateX(0px)','-webkit-transform': 'translateX(0px)'});
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FCTA' ){ ?>
-									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).animate({top: '0%', left: '<?php echo (100-$Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_MW)/2;?>%', width: '<?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_MW;?>%', height: '100%', borderRadius: '<?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_BR;?>px', borderWidth: '<?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BW;?>px' },500);
+									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).animate({ width: '<?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_MW;?>%', left: '<?php echo (100-$Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_MW)/2;?>%', height: '100%', top: '0%', borderRadius: '<?php echo $Total_Soft_Poll_Theme[0]->TotalSoft_Poll_1_BR;?>px', borderWidth: '<?php echo $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_BW;?>px' },500);
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FTL' ){ ?>
 									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).css({'transform':'rotateY(0deg)','-ms-transform': 'rotateY(0deg)', '-o-transform': 'rotateY(0deg)','-moz-transform': 'rotateY(0deg)','-webkit-transform': 'rotateY(0deg)'});
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FTR' ){ ?>
@@ -981,7 +1003,7 @@
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FRTL' ){ ?>
 									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).css({'transform':'translateX(12000px)','-ms-transform': 'translateX(12000px)', '-o-transform': 'translateX(12000px)','-moz-transform': 'translateX(12000px)','-webkit-transform': 'translateX(12000px)'});
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FCTA' ){ ?>
-									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).animate({ top: '50%', left: '50%', width: '0%', height: '0%', borderRadius: '0px', borderWidth: '0px' },500);
+									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).animate({width: '0', height: '0', left: '50%', top: '50%', borderRadius: '0px', borderWidth: '0px' },100);
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FTL' ){ ?>
 									jQuery(".Total_Soft_Poll_1_Main_Ans_Div_"+Poll_ID).css({'transform':'rotateY(-90deg)','-ms-transform': 'rotateY(-90deg)', '-o-transform': 'rotateY(-90deg)','-moz-transform': 'rotateY(-90deg)','-webkit-transform': 'rotateY(-90deg)'});
 								<?php } else if( $Total_Soft_Poll_Theme_1[0]->TotalSoft_Poll_1_P_ShEff == 'FTR' ){ ?>

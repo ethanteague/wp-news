@@ -1,13 +1,13 @@
 <?php
-/*
+	/*
 Plugin Name: Poll
 Plugin URI: http://total-soft.pe.hu/poll
-Description: Poll WP plugin is a responsive and customizable for WordPress. Poll plugin will help you more easily create powerful poll, quiz, vote results and simple dashboard. You Can from admin panel see who voted and from where.
+Description: Poll plugin is a responsive and customizable for WordPress. Poll plugin will help you more easily create powerful poll, quiz, vote results and simple dashboard. You Can from admin panel see who voted and from where.
 Author: totalsoft
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://total-soft.pe.hu/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
-*/
+	*/	
 
  	require_once(dirname(__FILE__) . '/Includes/Total-Soft-Poll-Widget.php');
  	require_once(dirname(__FILE__) . '/Includes/Total-Soft-Poll-Ajax.php');

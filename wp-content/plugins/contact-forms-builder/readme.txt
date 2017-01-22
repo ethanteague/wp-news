@@ -4,7 +4,7 @@ Donate link: http://wpdevart.com/wordpress-contact-form-plugin/
 Tags:  form, forms, form builder, contact form, wordpress contact form, contact, free contact form for website, contact us, custom form, contact form builder, contact form manager 
 Requires at least: 3.4.0
 Tested up to: 4.7.0
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -93,14 +93,18 @@ There isn't any type of limitation for creating forms, Create as many as you nee
 
 == Installation ==
 
-### First of all download the WpDevArt Contact Form plugin ZIP file.  
+### First of all download the WpDevArt [Contact Form](https://wordpress.org/plugins/contact-forms-builder) plugin ZIP file.  
 **Installing the plugin**  
 
 1. Log in to your WordPress admin panel.   
 2. Go to WordPress Plugins page and click on Add New button, then Upload the .zip file that you downloaded.
 3. Then click "Install Now", after that activate the WpDevArt Contact Form plugin.     
 4. From the left panel of Dashboard, click on the gear icon - WpDevArt Forms link to customize the plugin
-	  
+
+You can also install the contact form plugin fron your admin panel using the WordPress plugins search page. 
+
+For installing the Contact form pro you need to deactivate and uninstall the free version, then install the Contact form pro. If you didn't receive the Contact form pro, then contact us and we will send you the file.  
+
 That's all, now you can create contact forms for your website. If any problem apear, contact us at [support@wpdevart.com](mailto:support@wpdevart.com).
 
 == Frequently Asked Questions ==
@@ -145,7 +149,7 @@ You need to select the .zip file only, there is no need to extract the zip file,
 
 = Contact form pro version is one time pay or not =
 
-Yes dear users, you need to pay only one time for our pro version.
+Yes dear users, you need to pay only one time for our Contact form pro version.
 
 = I purchased the contact form pro, but didn't download the pro file =
 
@@ -153,7 +157,7 @@ Contact us at support@wpdevart.com and we will send you the contact form pro.
 
 == Screenshots ==
 
-1.  **WpDevArt Contact Form** Front-end    
+1.  **WpDevArt [Contact Form](https://wordpress.org/plugins/contact-forms-builder)** Front-end    
 2.  **WpDevArt Contact Form** Front-end(widget) 
 3.  **WpDevArt Contact Form** Back-end(forms page) 
 4.  **WpDevArt Contact Form** Back-end(form fields page)
@@ -205,6 +209,12 @@ After you set all settings for Contact Form, save the form.
 
 After that edit your posts/pages and click on Insert Wpdevart From shortcode(find the shortcode button from the list of Visual Editor Tools). Then choose the contact form you need and click on insert button.
 Now you can check your created Contact Form on front-end. 
+
+### Contact Form Submissions
+
+After someone added submission for your contact form you will see it on general forms page. After every contact form you will see the number of submission for each contact form. Click on the number of submissions and you will be redirected to the submissions page.
+On submissions page you can Export submissions to CSV, edit or delete submissions.
+If you click on the edit button then you will see the popup window where you can edit every submission user made for contact form. Make the changes and then click update.
 
 ### Contact Form design settings(Pro)
 
@@ -290,7 +300,7 @@ Configure design settings and then save it.
 
 = 1.0.2 =
 
-*  Fixed issues.
+*  Fixed issues in Contact form.
 
 = 1.0.3 =
 
@@ -310,7 +320,7 @@ Configure design settings and then save it.
 
 = 1.0.7 =
 
-*  Added comments in main php files.
+*  Added comments in contact form main php files.
 
 = 1.0.8 =
 
@@ -318,4 +328,12 @@ Configure design settings and then save it.
 
 = 1.0.9 =
 
-*  Edit code comments.
+*  Edit contact form code comments.
+
+= 1.1.0 =
+
+*  Changed plugin files and added texts for developers.
+
+= 1.1.1 =
+
+*  Edit comments in code.

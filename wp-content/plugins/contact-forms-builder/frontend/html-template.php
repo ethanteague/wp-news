@@ -293,7 +293,7 @@ function wpdevart_template($atts) {
 							$btn_form_submit_label = "submit"; 
 						}
 	
-					   // checking if reset button is required or not 
+					   // Checking if reset button is required or not 
 					   $btn_reset_required  = $wpdb->get_var($wpdb->prepare("SELECT is_required FROM ".$wpda_form_table['fields']." WHERE fk_form_id = %d AND fieldtype = 'reset'",$form_id));
 					   
 					   $btn_reset_label = $wpdb->get_var($wpdb->prepare("SELECT label FROM ".$wpda_form_table['fields']." WHERE fk_form_id = %d AND fieldtype = 'reset'",$form_id));
@@ -304,9 +304,9 @@ function wpdevart_template($atts) {
 					   }
 					   
 					   
-					   //checking if user has enabled cacel button or not
+					   // Checking if user has enabled cacel button or not
 					   $btn_cancel_required = $wpdb->get_var($wpdb->prepare("SELECT is_required FROM ".$wpda_form_table['fields']." WHERE fk_form_id = %d AND fieldtype = 'cancel'",$form_id));
-					   //checking the label of the cancel-close button if any
+					   // Checking the label of the cancel-close button if any
 	
 					   $btn_cancel_label = $wpdb->get_var($wpdb->prepare("SELECT label FROM ".$wpda_form_table['fields']." WHERE fk_form_id = %d AND fieldtype = 'cancel'",$form_id));
 	
@@ -315,7 +315,7 @@ function wpdevart_template($atts) {
 						$btn_cancel_label = " Cancel ";   
 					   }
 	
-					   // getting the  url to navigate as cancel-close form button is pressed if any
+					   // Getting the  url to navigate as cancel-close form button is pressed if any
 					   $cancel_redirect_url = $wpdb->get_var($wpdb->prepare("SELECT selected_value FROM ".$wpda_form_table['subfields']." WHERE fk_form_id = %d AND label = 'cancellation_url' ",$form_id));
 	
 					   ?>
@@ -357,20 +357,20 @@ function wpdevart_template($atts) {
 	
 				   <script>
 	
-					//document
+					// Document
 					jQuery( document ).ready(function() {
-						//	donot submit form on enter , allow enter button only for tex
+						//	Don't submit form on enter, allow enter button only for texts
 						jQuery(document).on("keypress", ":input:not(textarea)", function(event) {
 							return event.keyCode != 13;
 						});
 	
-						// do not use previous password saved in broswer for passowrd field
+						// Do not use previous password saved in broswer for passowrd field
 						jQuery("input[type='password']").attr("autocomplete", "new-password");
 	
 						//handle form submission
 						//jQuery("form[name='wpdevart_frontend_form_<?php echo $form_id;?>']").submit(function(e){
 						jQuery(document).on("submit", "form[name='wpdevart_frontend_form_<?php echo $form_id;?>']", function(e) {
-							//shortcode attributes e.g [wpdevart_forms id=1 name=yes]
+							//shortcode attributes e.g
 							var atts = <?php echo json_encode($atts ); ?>;
 							var options = { 
 								//target:'#frontend_form_messages_<?php echo $form_id;?>',   // target element(s) to be updated with server response 

@@ -71,7 +71,7 @@ function wpda_form_forms_shortcode( $atts )  {
 	return $response;
 }
 
-//	add submission shortcode anywhere to display form submission at frontend
+//	Add submission shortcode anywhere to display form submission at frontend
 add_shortcode( 'wpdevart_forms_submissions', 'wpda_form_submissions_shortcode' );
 function wpda_form_submissions_shortcode( $atts )  {
 	ob_start();
@@ -94,7 +94,7 @@ function wpda_form_has_subfield($form_field, $form_id) {
 		return false;
 	}
 }
-//	search if styling exists for a form and return if it has
+//	Search if styling exists for a form and return if it has
 function wpda_form_search_form_styling($array, $key, $value) {
 	$results = array();
 	if (is_array($array)) {
@@ -108,7 +108,7 @@ function wpda_form_search_form_styling($array, $key, $value) {
 	return $results;
 }
  
-//	check if styling exists against any form
+//	Check if styling exists against any form
 function wpda_form_form_styling_exists($form_id, $wp_option) {
 	if( array_key_exists($form_id, $wp_option) ){
 		return true;
@@ -117,7 +117,7 @@ function wpda_form_form_styling_exists($form_id, $wp_option) {
 	}
 }
  
-//	prints custom styles set from styling tab of admin
+//	Prints custom styles set from styling tab of admin
 function wpda_form_forms_custom_styles() {
 	$wpda_form_styles = ''; // we'll store all styles in this variable and print at the end.
 	
@@ -125,12 +125,12 @@ function wpda_form_forms_custom_styles() {
 	if (!empty($get_styles)) 
 	{
 		foreach($get_styles as $key => $style)  {
-			//	if styling disabled don't add styling to frontend 
+			//	If styling disabled don't add styling to frontend 
 			if(isset($style['enable_disable_form_style']) && $style['enable_disable_form_style'] == 1){
 				continue;
 			}
 			
-			//	forms area / container
+			//	Forms area / container
 			$output = '';			
 			if( isset($style['wpda_form_background_color']) && $style['wpda_form_background_color']!='') $output .= 'background-color:' .$style['wpda_form_background_color'] .';';
 			if( isset($style['wpda_form_width']) && $style['wpda_form_width']!='') $output .= 'width:' .esc_html($style['wpda_form_width']) .';';
@@ -150,7 +150,7 @@ function wpda_form_forms_custom_styles() {
 				$wpda_form_styles .= '#wpdevart-forms-'.$key.'{' .$output .'}';
 			}
 			
-			//	form fields
+			//	Form fields
 			$output = '';
 			if( isset($style['wpda_form_field_height']) && $style['wpda_form_field_height']!='') $output .= 'height:' .$style['wpda_form_field_height'] .';'; 
 			if( isset($style['wpda_form_field_background_color']) && $style['wpda_form_field_background_color']!='') $output .= 'background-color:' .$style['wpda_form_field_background_color'] .' !important;'; 
@@ -161,7 +161,7 @@ function wpda_form_forms_custom_styles() {
 			
 			if( isset($style['wpda_form_field_left_margin']) && $style['wpda_form_field_left_margin']!='') $output .= 'margin-left:' .wpda_form_to_mix($style['wpda_form_field_left_margin']).';';
 			if( isset($style['wpda_form_field_right_margin']) && $style['wpda_form_field_right_margin']!='') $output .= 'margin-right:' .wpda_form_to_mix($style['wpda_form_field_right_margin']).';';
-			// margins, top bottom missing
+			// Margins, top bottom missing
 			if( isset($style['wpda_form_field_top_padding']) && $style['wpda_form_field_top_padding']!='') $output .= 'padding-top:' .wpda_form_to_pixel($style['wpda_form_field_top_padding']).';';
 			if( isset($style['wpda_form_field_bottom_padding']) && $style['wpda_form_field_bottom_padding']!='') $output .= 'padding-bottom:' .wpda_form_to_pixel($style['wpda_form_field_bottom_padding']).';';
 			if( isset($style['wpda_form_field_left_padding']) && $style['wpda_form_field_left_padding']!='') $output .= 'padding-left:' .wpda_form_to_pixel($style['wpda_form_field_left_padding']).';';

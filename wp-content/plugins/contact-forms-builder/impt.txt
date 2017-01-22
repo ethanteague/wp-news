@@ -1,4 +1,4 @@
-How to import .csv file that uses UTF-8 character encoding
+How to import .csv file that uses UTF-8 character encoding ?
 =============================================================
 Follow the steps outlined below to use Microsoft Excel 2007 to open a .csv file that uses UTF-8 character encoding.
 
